@@ -1,0 +1,25 @@
+{
+  "name": "qrati-connect-preact-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "10.28.4"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "2.10.3",
+    "@types/node": "25.3.5",
+    "typescript": "5.9.3",
+    "vite": "8.0.0-beta.16"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "8.0.0-beta.16"
+    }
+  }
+}
