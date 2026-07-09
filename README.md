@@ -18,9 +18,9 @@ import QratiConnect from '@qratilabs/qrati-connect';
 ## Run it
 
 ```bash
-bun install
+pnpm install
 cp .env.example .env   # optional — sensible defaults are baked in
-bun dev
+pnpm dev
 ```
 
 ## Configuration
