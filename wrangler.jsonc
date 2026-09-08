@@ -1,9 +1,10 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "qrati-connect-preact-example",
+  "main": "src/worker.ts",
   "compatibility_date": "2026-07-06",
   "observability": { "enabled": true },
   "routes": [{ "pattern": "*qrati.com/connect/preact-example*", "zone_name": "qrati.com" }],
-  "assets": { "directory": "./dist", "not_found_handling": "single-page-application" },
+  "assets": { "directory": "./dist", "binding": "ASSETS", "not_found_handling": "single-page-application" },
   "compatibility_flags": ["nodejs_compat"]
 }
