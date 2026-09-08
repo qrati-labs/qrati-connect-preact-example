@@ -27,11 +27,6 @@ cp .env.example .env   # optional — sensible defaults are baked in
 pnpm dev
 ```
 
-## Configuration
-
-| Variable               | Description                                                       |
-| ---------------------- | ----------------------------------------------------------------- |
-| `VITE_ORGANIZATION_ID` | Your Qrati organization ID                                        |
 ## Other integration methods
 
 - **Web component** — `<qrati-connect>` from the CDN (see the Svelte / Solid / Qwik / Lit examples).
