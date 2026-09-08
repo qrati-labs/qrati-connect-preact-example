@@ -1,6 +1,42 @@
 @import 'vanilla-cookieconsent/dist/cookieconsent.css';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700&display=swap');
 
+#cc-main {
+  --cc-font-family: Inter, system-ui, sans-serif;
+  --cc-bg: #ffffff;
+  --cc-primary-color: #1a1a2e;
+  --cc-secondary-color: #4a5568;
+  --cc-btn-primary-bg: #ff4800;
+  --cc-btn-primary-color: #ffffff;
+  --cc-btn-primary-hover-bg: #d93d00;
+  --cc-btn-secondary-bg: #fff0e9;
+  --cc-btn-secondary-color: #1a1a2e;
+  --cc-btn-secondary-hover-bg: #ffe0d1;
+  --cc-toggle-on-bg: #ff4800;
+  --cc-toggle-off-bg: #9ca3af;
+  --cc-cookie-category-block-bg: #fff7f1;
+  --cc-cookie-category-block-border: #ffd5c2;
+  --cc-modal-border-radius: 1.25rem;
+  --cc-btn-border-radius: 999px;
+}
+
+html.dark #cc-main,
+[data-theme='dark'] #cc-main {
+  --cc-bg: #161622;
+  --cc-primary-color: #f0f0f5;
+  --cc-secondary-color: rgba(255, 255, 255, 0.65);
+  --cc-btn-primary-bg: #ff4800;
+  --cc-btn-primary-color: #ffffff;
+  --cc-btn-primary-hover-bg: #ff6b35;
+  --cc-btn-secondary-bg: #2a2020;
+  --cc-btn-secondary-color: #f0f0f5;
+  --cc-btn-secondary-hover-bg: #3a2922;
+  --cc-toggle-on-bg: #ff4800;
+  --cc-toggle-off-bg: #6b7280;
+  --cc-cookie-category-block-bg: #211a18;
+  --cc-cookie-category-block-border: #4d2b20;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
