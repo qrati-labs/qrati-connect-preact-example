@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qrati.com/connect/preact-example/sitemap.xml

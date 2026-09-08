@@ -1,7 +1,6 @@
 import { useState } from 'preact/hooks';
 import QratiConnect from '@qratilabs/qrati-connect';
 import { ORGANIZATION_ID, GITHUB_ORG, REPO } from './config';
-import { loadUser, login, logout, type AuthUser } from './auth';
 
 const repoUrl = `https://github.com/${GITHUB_ORG}/${REPO}`;
 const vscodeUrl = `https://vscode.dev/github/${GITHUB_ORG}/${REPO}`;
@@ -12,46 +11,19 @@ function initTheme(): 'light' | 'dark' {
     (localStorage.getItem('qc-theme') as 'light' | 'dark') ||
     (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
   document.documentElement.setAttribute('data-theme', t);
+  document.documentElement.classList.toggle('dark', t === 'dark');
   return t;
 }
 
 export function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>(initTheme);
-  const [user, setUser] = useState<AuthUser | null>(loadUser());
-  const [email, setEmail] = useState('');
-  const [name, setName] = useState('');
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
 
   const toggleTheme = () => {
     const next = theme === 'dark' ? 'light' : 'dark';
     setTheme(next);
     document.documentElement.setAttribute('data-theme', next);
+    document.documentElement.classList.toggle('dark', next === 'dark');
     localStorage.setItem('qc-theme', next);
-  };
-
-  const handleSubmit = async (e: Event) => {
-    e.preventDefault();
-    if (!email.trim() || !name.trim()) {
-      setError('Email and name are required.');
-      return;
-    }
-    setLoading(true);
-    setError('');
-    try {
-      setUser(await login(email.trim(), name.trim()));
-    } catch {
-      setError('Login failed. Try again.');
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const handleLogout = () => {
-    logout();
-    setUser(null);
-    setEmail('');
-    setName('');
   };
 
   return (
@@ -71,7 +43,7 @@ export function App() {
               This example shows how to embed{' '}
               <a href="https://qrati.com" target="_blank" rel="noopener noreferrer">Qrati</a> Connect into a
               Preact app using the <strong>React component</strong> (via preact/compat), with a
-              host-controlled theme and a demo login for organizations that use custom auth.
+              host-controlled theme and zero backend configuration.
             </p>
 
             <div class="action-pills" aria-label="Example links">
@@ -87,43 +59,27 @@ export function App() {
           </header>
 
           <main class="content-shell">
-            {user ? (
-              <>
-                <div class="session-bar">
-                  <span>Signed in as <strong>{user.fname} {user.lname}</strong> ({user.email})</span>
-                  <button class="btn-ghost" onClick={handleLogout}>Log out</button>
-                </div>
-                <div class="widget-frame">
-                  <QratiConnect
-                    organizationId={ORGANIZATION_ID}
-                    uid={user.userId}
-                    fname={user.fname}
-                    lname={user.lname}
-                    theme={theme}
-                    router="hash"
-                  />
-                </div>
-              </>
-            ) : (
-              <div class="login-card">
-                <h2>Demo sign in</h2>
-                <p class="sub">Identify yourself to load the widget as a known user.</p>
-                <form class="login-form" onSubmit={handleSubmit}>
-                  <div class="field">
-                    <label for="name">Full name</label>
-                    <input id="name" type="text" value={name} onInput={(e) => setName((e.target as HTMLInputElement).value)} placeholder="John Doe" autocomplete="name" />
-                  </div>
-                  <div class="field">
-                    <label for="email">Email</label>
-                    <input id="email" type="email" value={email} onInput={(e) => setEmail((e.target as HTMLInputElement).value)} placeholder="john@example.com" autocomplete="email" />
-                  </div>
-                  {error && <p class="error">{error}</p>}
-                  <button class="btn-primary" type="submit" disabled={loading}>
-                    {loading ? 'Signing in…' : 'Sign in & load widget'}
-                  </button>
-                </form>
+            <section class="widget-frame" aria-label="Interactive Preact Event Gallery">
+              <h2 class="sr-only">Live Event Photo Gallery Component</h2>
+              <QratiConnect organizationId={ORGANIZATION_ID} theme={theme} router="hash" />
+            </section>
+            <section class="seo-section" aria-labelledby="features-heading">
+              <span class="seo-kicker">Event Gallery Features</span><h2 id="features-heading">Why Developers Choose Qrati Connect</h2>
+              <div class="seo-features-grid">
+                <article class="seo-feature-card"><h3>🖼️ Live Event Photo Wall</h3><p>Responsive masonry gallery, placeholders, and full-screen lightbox.</p></article>
+                <article class="seo-feature-card"><h3>📸 Guest Media Uploads</h3><p>QR or direct uploads with compression and HEIC conversion.</p></article>
+                <article class="seo-feature-card"><h3>⭐ Reactions &amp; Contests</h3><p>Emoji reactions, ratings, and live contest rankings.</p></article>
+                <article class="seo-feature-card"><h3>⚡ Native Web Component</h3><p>Preact renders the package component with host-controlled theme sync.</p></article>
               </div>
-            )}
+            </section>
+            <section class="seo-section" aria-labelledby="faq-heading"><span class="seo-kicker">Common Questions</span><h2 id="faq-heading">Frequently Asked Questions</h2><div class="faq-list">
+              <details open><summary>How do I embed an event photo gallery in Preact?</summary><p>Install the package and render QratiConnect with your organization ID.</p></details>
+              <details><summary>Can attendees upload photos?</summary><p>Yes, when uploads are enabled for the Qrati event.</p></details>
+              <details><summary>How does Preact handle theme sync?</summary><p>Pass the current theme prop; the host state updates the widget attribute.</p></details>
+              <details><summary>Does it support dark mode?</summary><p>Yes. The host and widget can switch between light and dark themes.</p></details>
+              <details><summary>Can I run photo contests?</summary><p>Yes. Reactions and leaderboard rankings are built in.</p></details>
+            </div></section>
+            <section class="seo-section seo-cta-section"><h2>Host Your Event on Qrati. <span class="cta-highlight">Stream the Live Gallery on Your Website.</span></h2><p>Capture attendee memories with instant QR uploads and a live interactive photo wall.</p><a class="btn-cta-primary" href="https://qrati.com" target="_blank" rel="noopener noreferrer">Host Your Event on Qrati →</a></section>
           </main>
 
           <footer class="footer">

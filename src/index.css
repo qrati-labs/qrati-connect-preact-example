@@ -1,3 +1,4 @@
+@import 'vanilla-cookieconsent/dist/cookieconsent.css';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700&display=swap');
 
 :root {
@@ -188,60 +189,6 @@ body {
   background: var(--widget-shell-bg);
 }
 
-/* Demo auth login card */
-.login-card {
-  max-width: 26rem;
-  margin: 0 auto;
-  padding: 2rem;
-  border: 1px solid var(--field-border);
-  border-radius: 1rem;
-  background: var(--card-bg);
-  backdrop-filter: blur(10px);
-  text-align: left;
-}
-.login-card h2 { margin: 0 0 0.35rem; color: var(--page-heading); font-size: 1.25rem; font-weight: 700; }
-.login-card p.sub { margin: 0 0 1.25rem; color: var(--page-muted); font-size: 0.875rem; }
-.login-form { display: flex; flex-direction: column; gap: 0.9rem; }
-.field { display: flex; flex-direction: column; gap: 0.35rem; }
-.field label { font-size: 0.8rem; font-weight: 600; color: var(--page-muted); }
-.field input {
-  padding: 0.65rem 0.85rem;
-  border: 1px solid var(--field-border);
-  border-radius: 0.5rem;
-  background: var(--field-bg);
-  color: var(--page-text);
-  font: inherit;
-  font-size: 0.9rem;
-  outline: none;
-  transition: border-color 0.15s;
-}
-.field input:focus { border-color: var(--brand-accent); }
-.btn-primary {
-  padding: 0.7rem;
-  border: none;
-  border-radius: 0.5rem;
-  background: var(--brand-accent);
-  color: #fff;
-  font: inherit;
-  font-weight: 600;
-  cursor: pointer;
-  transition: opacity 0.15s;
-}
-.btn-primary:hover:not(:disabled) { opacity: 0.9; }
-.btn-primary:disabled { opacity: 0.6; cursor: not-allowed; }
-.error { margin: 0; color: #f87171; font-size: 0.85rem; }
-
-.session-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-bottom: 1rem;
-  color: var(--page-muted);
-  font-size: 0.85rem;
-}
-.session-bar strong { color: var(--page-heading); }
 .btn-ghost {
   padding: 0.4rem 0.9rem;
   border: 1px solid var(--pill-border);
@@ -281,3 +228,15 @@ body {
   .footer { flex-direction: row; align-items: flex-start; }
   .footer-meta { align-items: flex-end; }
 }
+
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); }
+.seo-section { margin-top: 4rem; text-align: center; }
+.seo-kicker { color: var(--brand-accent); font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+.seo-features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.seo-feature-card, .faq-list details { padding: 1rem; border: 1px solid var(--field-border); border-radius: 1rem; background: var(--card-bg); text-align: left; }
+.seo-feature-card p, .faq-list p, .seo-cta-section p { color: var(--page-muted); }
+.faq-list { max-width: 48rem; margin: 1.5rem auto 0; }
+.faq-list details { margin: .75rem 0; }
+.faq-list summary { cursor: pointer; font-weight: 600; }
+.cta-highlight { color: var(--brand-accent); }
+.btn-cta-primary { display: inline-block; padding: .8rem 1.4rem; border-radius: 999px; background: var(--brand-accent); color: #fff !important; text-decoration: none; }
