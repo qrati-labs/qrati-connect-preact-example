@@ -269,6 +269,20 @@ body {
 .seo-section { margin-top: 4rem; text-align: center; }
 .seo-kicker { color: var(--brand-accent); font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
 .seo-features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+
+.answer-section { display:grid; gap:1.5rem; align-items:center; margin-top:3rem; padding:1.5rem; border:1px solid rgba(255,72,0,.24); border-radius:1.5rem; background:linear-gradient(135deg,rgba(255,72,0,.1),var(--card-bg)); }
+.answer-copy h2 { margin:.5rem 0 0; color:var(--page-heading); font-size:clamp(1.4rem,2.4vw,2rem); }
+.answer-copy p { max-width:48rem; margin:.75rem 0 0; color:var(--page-muted); line-height:1.7; }
+.answer-points { display:grid; gap:.65rem; color:var(--page-heading); font-size:.88rem; }
+.feature-map-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(14rem,1fr)); gap:1rem; margin-top:1.5rem; }
+.feature-map-card { padding:1.25rem; border:1px solid var(--pill-border); border-radius:1.25rem; background:var(--card-bg); transition:transform 180ms ease,border-color 180ms ease; }
+.feature-map-card:hover { transform:translateY(-3px); border-color:rgba(255,72,0,.45); }
+.feature-map-heading { display:flex; gap:.75rem; align-items:center; }
+.feature-map-heading h3 { margin:0; color:var(--page-heading); font-size:1rem; }
+.feature-map-card p { margin:.75rem 0 0; color:var(--page-muted); font-size:.86rem; line-height:1.65; }
+.feature-map-icon,.seo-feature-icon { color:var(--brand-accent); font-size:1.6rem; }
+@media (min-width: 760px) { .answer-section { grid-template-columns:1.25fr .75fr; padding:2rem; } }
+@media (prefers-reduced-motion: reduce) { .feature-map-card { transition:none; } .feature-map-card:hover { transform:none; } }
 .seo-feature-card, .faq-list details { padding: 1rem; border: 1px solid var(--field-border); border-radius: 1rem; background: var(--card-bg); text-align: left; }
 .seo-feature-card p, .faq-list p, .seo-cta-section p { color: var(--page-muted); }
 .faq-list { max-width: 48rem; margin: 1.5rem auto 0; }

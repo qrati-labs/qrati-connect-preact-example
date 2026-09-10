@@ -63,6 +63,23 @@ export function App() {
               <h2 class="sr-only">Live Event Photo Gallery Component</h2>
               <QratiConnect organizationId={ORGANIZATION_ID} theme={theme} router="hash" />
             </section>
+            <section class="answer-section" aria-labelledby="answer-heading">
+              <div class="answer-copy"><span class="seo-kicker">The short answer</span><h2 id="answer-heading">What does Qrati Connect add to a Preact site?</h2><p>Qrati Connect adds the complete hosted event-media experience to a Preact page: guests can discover galleries, upload photos and videos, search, react, rate, and join contests while your team controls access, branding, and moderation.</p></div>
+              <div class="answer-points"><span>✓ One component to embed</span><span>✓ No gallery backend to maintain</span><span>✓ Host-controlled theme and hash or memory routing</span><span>✓ Organization-controlled feature gates</span></div>
+            </section>
+            <section class="seo-section feature-map-section" aria-labelledby="feature-map-heading">
+              <div class="seo-section-header"><span class="seo-kicker">Complete capability map</span><h2 id="feature-map-heading">One embed. The full event experience.</h2><p>Start with the live gallery, then enable only the capabilities your Qrati organization needs.</p></div>
+              <div class="feature-map-grid">
+                <article class="feature-map-card"><div class="feature-map-heading"><span class="feature-map-icon iconify" data-icon="material-symbols:integration-instructions" aria-hidden="true" /><h3>Embed cleanly</h3></div><p>React-compatible component, Web Component, Shadow DOM isolation, themes, and hash or memory routing.</p></article>
+                <article class="feature-map-card"><div class="feature-map-heading"><span class="feature-map-icon iconify" data-icon="material-symbols:event" aria-hidden="true" /><h3>Run the event</h3></div><p>Landing pages, nested folders, breadcrumbs, event and global search, sorting, stats, and maps.</p></article>
+                <article class="feature-map-card"><div class="feature-map-heading"><span class="feature-map-icon iconify" data-icon="material-symbols:photo-library" aria-hidden="true" /><h3>Show every memory</h3></div><p>Image and video galleries, layouts, lazy loading, captions, downloads, and full-screen PhotoSwipe.</p></article>
+                <article class="feature-map-card"><div class="feature-map-heading"><span class="feature-map-icon iconify" data-icon="material-symbols:cloud-upload" aria-hidden="true" /><h3>Collect uploads</h3></div><p>QR and direct uploads, progress, retry, cancel, HEIC conversion, crop, trim, and post-processing.</p></article>
+                <article class="feature-map-card"><div class="feature-map-heading"><span class="feature-map-icon iconify" data-icon="material-symbols:celebration" aria-hidden="true" /><h3>Make it social</h3></div><p>Keyword and face search, reactions, ratings, similarity feedback, contests, points, and leaderboards.</p></article>
+                <article class="feature-map-card"><div class="feature-map-heading"><span class="feature-map-icon iconify" data-icon="material-symbols:shield-lock" aria-hidden="true" /><h3>Keep people safe</h3></div><p>Authentication, roles, permissions, moderation, terms, anonymous access, and organization feature gates.</p></article>
+                <article class="feature-map-card"><div class="feature-map-heading"><span class="feature-map-icon iconify" data-icon="material-symbols:palette" aria-hidden="true" /><h3>Fit the brand</h3></div><p>Logos, covers, fonts, palettes, tokens, responsive layouts, translations, and accessible states.</p></article>
+                <article class="feature-map-card"><div class="feature-map-heading"><span class="feature-map-icon iconify" data-icon="material-symbols:monitor-heart" aria-hidden="true" /><h3>Operate confidently</h3></div><p>Admin review, deep search, analytics, error reporting, and reliable loading, empty, error, and toast states.</p></article>
+              </div>
+            </section>
             <section class="seo-section" aria-labelledby="features-heading">
               <span class="seo-kicker">Event Gallery Features</span><h2 id="features-heading">Why Developers Choose Qrati Connect</h2>
               <div class="seo-features-grid">
