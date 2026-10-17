@@ -8,4 +8,4 @@
 - Finding: No confirmed defect in the bounded application bootstrap workflow. No issue or source/test change warranted.
 - Tests authored: none. Tests/build/lint/type-check not run under BugHunter boundary. `git diff --check` is the only permitted patch verification.
 - Limitations: no browser/E2E execution or production request. Assessment limited to static HTML/module startup and entrypoint; does not establish runtime behavior of the embedded third-party component.
-- Timing (UTC): preflight start `2026-10-17T08:56:39Z`; audit started `2026-10-17T08:57:09Z`; completion timestamp and elapsed phases recorded in final delivery using observed clock. IST = UTC+05:30.
+- Timing (UTC): preflight start `2026-10-17T08:56:39Z`; audit started `2026-10-17T08:57:09Z`; completed `2026-10-17T08:58:03Z`. Measured total elapsed: 84 seconds (1m24s); bounded audit phase: 54 seconds. IST: 14:26:39–14:28:03 (audit phase 14:27:09–14:28:03).
