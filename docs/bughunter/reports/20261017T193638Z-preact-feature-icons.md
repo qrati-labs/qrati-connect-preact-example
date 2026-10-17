@@ -16,14 +16,13 @@ The route is reachable from the document's module entry (`index.html:20`, `src/m
 No confirmed user-facing failure or violated invariant found in this bounded path. No source edits, regression tests, or issue were warranted. This report does not audit the embedded Qrati Connect package's internal gallery behavior.
 
 - Tests authored: none. Tests/build/lint/type-check **NOT RUN BY BUGHUNTER**.
-- `git diff --check`: to be recorded after documentation edits.
+- `git diff --check`: passed.
 - CodeGraph: unavailable; repository has no `.codegraph` index. Focused source inspection used instead.
 - Relevant open-PR overlap check: existing PRs change only docs for the candidate areas except #4, which changes theme storage in `src/app.tsx`; the feature icon route is separate from that theme behavior.
 
 ## Timing
 
-- Preflight: `2026-10-17T19:36:39Z` (provided run record; 00:00:21).
-- Audit started: `2026-10-17T19:36:39Z`.
-- Audit completed: pending.
-- Total and phase durations: pending final delivery read-back; no estimates.
-- IST (UTC+05:30): pending.
+- Original audit work began `2026-10-17T19:36:39Z`; the pre-run record reports preflight duration `00:00:21`.
+- This continuation run began `2026-10-17T22:20:39Z`; completion time and measured continuation duration are recorded at final PR read-back below.
+- Earlier audit/continuation durations are not combined because elapsed wall time between scheduled runs is not active audit time.
+- IST (UTC+05:30): see final completion timestamp below.
