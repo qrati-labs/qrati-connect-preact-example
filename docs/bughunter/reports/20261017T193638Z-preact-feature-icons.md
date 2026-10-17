@@ -23,6 +23,6 @@ No confirmed user-facing failure or violated invariant found in this bounded pat
 ## Timing
 
 - Original audit work began `2026-10-17T19:36:39Z`; the pre-run record reports preflight duration `00:00:21`.
-- This continuation run began `2026-10-17T22:20:39Z`; completion time and measured continuation duration are recorded at final PR read-back below.
+- This continuation run began `2026-10-17T22:20:39Z` and completed `2026-10-17T22:21:47Z` (00:01:08 wall-clock; 00:01:08 source/report finalization and PR read-back; no other measured phases).
 - Earlier audit/continuation durations are not combined because elapsed wall time between scheduled runs is not active audit time.
-- IST (UTC+05:30): see final completion timestamp below.
+- IST (UTC+05:30): completion `2026-10-18T03:51:47+05:30`; continuation interval `03:50:39–03:51:47 IST`.
