@@ -22,6 +22,6 @@ No issue was created because no new confirmed defect was found. No source or reg
 ## Timing
 
 - Start: 2026-10-18T01:15:39Z (06:45:39 IST), supplied by run preflight.
-- End: 2026-10-18T01:17:42Z (06:47:42 IST), measured before report finalization; PR readback remains pending.
-- Measured elapsed to this report draft: 2m03s. This is not the completed-run total; finalization timing will be recorded after PR readback and must not be backfilled.
-- Phase detail: preflight 00:00:23 (provided); overlap/source trace ran 01:15:39–01:17:42 UTC. No finer phase timestamps were available, so none are estimated.
+- End: 2026-10-18T01:18:07Z (06:48:07 IST), after PR #11 readback.
+- Total: 2m28s elapsed from run start to verified PR readback (01:15:39–01:18:07 UTC / 06:45:39–06:48:07 IST).
+- Phase detail: preflight 00:00:23 (provided); consent PR overlap/source trace and report authoring took the remaining measured interval. No finer phase boundaries were available, so none are estimated.
