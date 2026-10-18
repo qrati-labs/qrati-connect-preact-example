@@ -22,11 +22,12 @@ The checked-in host wiring passes a stable configured ID (or the documented empt
 
 - No source or test changes; no tests authored.
 - No tests, builds, lint, type checks, package installs, or live/external tests run, per BugHunter boundary.
-- `git diff --check`: clean.
-- PR: pending creation/readback at report authoring time.
+- PR #15 read back: open, mergeable, base `main` at `002faea7e6dd8505cdf5b570229c4e3407f0fabf`, head `cc3c9e8cb3422ca0c7775bf9da406f3d71ac56ff`; expected report and index files only; no linked issues. Cloudflare Workers Builds was in progress at readback.
+- `git diff --check`: clean; worktree clean after push.
 
 ## Timing (measured)
 
 - Start: `2026-10-18T18:18:39Z` / `2026-10-18 23:48:39 IST`.
-- Report/index authored and PR readback timing to be recorded in the delivery tracker update after readback; do not interpret this report-time checkpoint as the final audit duration.
-- Preflight phase: 23 seconds (script-provided; excluded from the measured audit elapsed time above).
+- PR readback/end: `2026-10-18T18:20:28Z` / `2026-10-18 23:50:28 IST`.
+- Total elapsed: 109 seconds (1m 49s).
+- Phase breakdown: preflight 23 seconds (script-provided); post-preflight audit and delivery 86 seconds (calculated from the measured total minus preflight). The script did not expose finer post-preflight phase timestamps, so no finer breakdown is asserted.
