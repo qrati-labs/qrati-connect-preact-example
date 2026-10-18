@@ -1,0 +1,11 @@
+# Preact FAQ disclosure workflow audit
+
+- **Scope:** FAQ disclosure interactions in the public Preact example at base `002faea7e6dd8505cdf5b570229c4e3407f0fabf` (`origin/main`). Entry: `src/app.tsx:92-98`; presentation: `src/index.css:286-290`.
+- **Disposition:** Report-only; no confirmed defect, issue, source change, or regression test.
+- **Boundary:** Followed FAQ question activation through native `<details>/<summary>` to visible answer content and CSS presentation. The five entries each have a `<summary>` and answer paragraph; only the first is initially open. No `name` attribute forces exclusive accordion behavior, and the native controls are not intercepted by app code. The stylesheet adds cursor and font weight but does not remove native disclosure interaction. This matches the intended independent FAQ disclosures. No custom JavaScript state, persistence, network requests, or other side effects exist in this workflow.
+- **Falsification / limits:** Source inspection found no contradictory event handlers or hidden state. Native behavior is platform-provided; no browser/E2E or accessibility automation was run, so actual rendering and assistive-technology behavior were not empirically tested. CodeGraph was unavailable because the repository is not indexed. No tests were authored.
+- **Severity / confidence:** No finding. Moderate confidence for the inspected source behavior; runtime/browser-specific effects are unverified.
+- **References:** `src/app.tsx:92-98`; `src/index.css:286-290`; MDN, [HTML `<details>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details) and [HTML `<summary>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/summary) (native disclosure semantics).
+- **Verification:** `git diff --check` permitted and passed. Tests/build/lint/type-check/install were not run; no tests authored.
+- **Timing (UTC):** Preflight 12:16:39–12:17:01 (22s, supplied by the pre-run script); audit 12:17:01–12:18:05 (64s); delivery timing will be recorded in the final report update. Total will be measured from 12:16:39 UTC to final delivery timestamp; IST is UTC+05:30.
+- **PR/check state:** To be recorded after remote PR readback.
