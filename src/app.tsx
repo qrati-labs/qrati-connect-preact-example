@@ -7,9 +7,12 @@ const vscodeUrl = `https://vscode.dev/github/${GITHUB_ORG}/${REPO}`;
 const year = new Date().getFullYear();
 
 function initTheme(): 'light' | 'dark' {
-  const t =
-    (localStorage.getItem('qc-theme') as 'light' | 'dark') ||
-    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  const stored = localStorage.getItem('qc-theme');
+  const t = stored === 'light' || stored === 'dark'
+    ? stored
+    : window.matchMedia('(prefers-color-scheme: dark)').matches
+      ? 'dark'
+      : 'light';
   document.documentElement.setAttribute('data-theme', t);
   document.documentElement.classList.toggle('dark', t === 'dark');
   return t;
