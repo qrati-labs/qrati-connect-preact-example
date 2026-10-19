@@ -30,7 +30,7 @@ The audit did not check whether the external destinations currently resolve, whe
 
 ## Disposition
 
-Report-only; no source change, issue, deployment, or production access. PR #19 is open and mergeable; no CI checks are configured/reported yet.
+Report-only; no source change, issue, deployment, or production access. PR #19 is open and mergeable; GitGuardian Security Checks passed, and no other checks are reported.
 
 ## Sources
 
