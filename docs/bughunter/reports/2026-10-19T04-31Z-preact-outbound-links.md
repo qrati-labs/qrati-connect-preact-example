@@ -18,16 +18,19 @@ The audit did not check whether the external destinations currently resolve, whe
 - Current Preact remote base verified at `002faea7e6dd8505cdf5b570229c4e3407f0fabf`.
 - Open PRs #2, #4-#18 were read back for actual changed files. #2 overlaps consent bootstrap (`index.html` and test/report); #11 overlaps consent report; neither overlaps this link workflow. Other observed open PR changes do not cover `src/app.tsx` outbound-link behavior. (PR #3 is not listed in preflight; no assumption about it is made.)
 - Source traced in `src/app.tsx` lines 5-6, 40-58, 99, 111-116 and `src/config.ts` lines 4-5.
-- `git diff --check` — run before delivery.
+- `git diff --check` — passed on the committed patch before push.
 - Tests/build/lint/type-check/coverage/install — not run by BugHunter.
 
 ## Timing
 
-Measured run window from injected start `2026-10-19T04:31:39Z` to report artifact creation at `2026-10-19T04:36:20Z`: 00:04:41 (IST 10:01:39–10:06:20). This is a lower bound to completion; remaining documentation/PR delivery time is not yet measured and no total is claimed here.
+- Run start: `2026-10-19T04:31:39Z` (IST 10:01:39).
+- Artifact and PR readback completed: `2026-10-19T04:35:08Z` (IST 10:05:08).
+- Total measured wall time: `00:03:29` (IST duration same). The prior source-review lower-bound note is superseded by this completed interval.
+- Phase breakdown is not available from the injected timer; no phase values are estimated.
 
 ## Disposition
 
-Report-only; no source change, issue, deployment, or production access. PR delivery is the audit completion criterion.
+Report-only; no source change, issue, deployment, or production access. PR #19 is open and mergeable; no CI checks are configured/reported yet.
 
 ## Sources
 
