@@ -1,7 +1,7 @@
 # BugHunter audit: Preact static asset base-path resolution
 
 - Run: `20261019T051642Z-47c66a871f2f4df69343660189811cf6`
-- Audited: 2026-10-19 05:17:15–05:22:00 UTC (10:47:15–10:52:00 IST)
+- Audited: 2026-10-19; audit-phase start/end are not recorded by the timer ledger.
 - Repository: `qrati-labs/qrati-connect-preact-example`
 - Base: `origin/main` at preflight SHA `002faea`
 - Workflow: static asset loading for the Preact example mounted at `/connect/preact-example`.
