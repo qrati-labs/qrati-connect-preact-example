@@ -24,13 +24,12 @@ The audit did not check whether the external destinations currently resolve, whe
 ## Timing
 
 - Run start: `2026-10-19T04:31:39Z` (IST 10:01:39).
-- Artifact and PR readback completed: `2026-10-19T04:35:08Z` (IST 10:05:08).
-- Total measured wall time: `00:03:29` (IST duration same). The prior source-review lower-bound note is superseded by this completed interval.
-- Phase breakdown is not available from the injected timer; no phase values are estimated.
+- Artifact and PR readback completed: `2026-10-19T04:35:45Z` (IST 10:05:45).
+- Total measured wall time: `00:04:06` (IST duration same). Phase breakdown is not available from the injected timer; no phase values are estimated.
 
 ## Disposition
 
-Report-only; no source change, issue, deployment, or production access. PR #19 is open and mergeable; GitGuardian Security Checks passed, and no other checks are reported.
+Report-only; no source change, issue, deployment, or production access. PR #19 is open; GitGuardian Security Checks are pending for the final docs commit, and no other checks are reported.
 
 ## Sources
 
