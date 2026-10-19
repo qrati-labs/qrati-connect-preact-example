@@ -29,10 +29,11 @@ Open PR #14 changes only the audit report/tracker for footer navigation; its sta
 - Run/preflight start: `2026-10-19T01:42:39Z` (`2026-10-19 07:12:39 IST`). Preflight was supplied by the scheduler; its measured duration was 23 seconds.
 - Candidate selection, fresh repository/PR path inspection, and source trace: `2026-10-19T01:43:13Z`–`2026-10-19T01:44:08Z` (55 seconds; 07:13:13–07:14:08 IST).
 - Report/tracker creation, PR creation, and first remote readback: `2026-10-19T01:44:18Z`–`2026-10-19T01:45:02Z` (44 seconds; 07:14:18–07:15:02 IST).
-- Total measured wall-clock duration from supplied run start through PR/readback: `2026-10-19T01:42:39Z`–`2026-10-19T01:45:02Z`, 143 seconds (2m 23s; 07:12:39–07:15:02 IST). The scheduler-reported preflight duration was 23 seconds within this interval; it was not repeated.
+- Final report/branch/PR/check verification: `2026-10-19T01:45:02Z`–`2026-10-19T01:45:43Z` (41 seconds; 07:15:02–07:15:43 IST).
+- Total measured wall-clock duration from supplied run start through final PR/readback: `2026-10-19T01:42:39Z`–`2026-10-19T01:45:43Z`, 184 seconds (3m 4s; 07:12:39–07:15:43 IST). The scheduler-reported preflight duration was 23 seconds within this interval; it was not repeated.
 
 ## Delivery
 
 - Issue: none (report-only).
-- PR: [#18](https://github.com/qrati-labs/qrati-connect-preact-example/pull/18), open; base `main` at `002faea7e6dd8505cdf5b570229c4e3407f0fabf`, head `0e33b7985b62463aaa852cd7f21c477015b1bb7d`; report and index only; mergeable at readback. No issue-closing reference.
-- Checks observed at `2026-10-19T01:45:02Z`: GitGuardian Security Checks and Workers Builds both pending.
+- PR: [#18](https://github.com/qrati-labs/qrati-connect-preact-example/pull/18), open; base `main` at `002faea7e6dd8505cdf5b570229c4e3407f0fabf`; report and index only; mergeability was `UNKNOWN` at final readback. No issue-closing reference.
+- Checks observed at `2026-10-19T01:45:43Z`: GitGuardian Security Checks and Workers Builds both pending.
