@@ -30,6 +30,5 @@ Bounded source-level review of the deployment asset-routing workflow. No deploym
 
 ## Timing
 
-- Preflight: 00:00:24 (script output; 05:16:42–05:17:06 UTC).
-- Audit, report, and delivery: 00:05:18 (05:17:06–05:22:24 UTC).
-- Total measured elapsed time: 00:05:42 (05:16:42–05:22:24 UTC; 10:46:42–10:52:24 IST).
+- Preflight: 00:00:24 (05:16:42–05:17:07 UTC; 10:46:42–10:47:07 IST), recorded by the timing ledger.
+- Audit/total timing is incomplete: the timer record contains no audit-phase boundary or finish time. The previous audit/total timestamps were not supported by the ledger and are removed; no duration is estimated.
