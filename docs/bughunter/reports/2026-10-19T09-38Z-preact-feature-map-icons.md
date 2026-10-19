@@ -27,7 +27,10 @@ No browser/network failure simulation was performed; API reliance was verified f
 
 ## Timing
 
-Timer ledger recorded audit start at `2026-10-19T09:39:12Z` (14:39:12 IST). This report was prepared before audit end/finish; phase table and total will be populated only from the timer ledger after final PR verification. No duration is estimated.
+- `preflight`: 2026-10-19T09:38:38Z–09:39:04Z (00:00:25; 15:08:38–15:09:04 IST; ledger rounding)
+- `audit`: 2026-10-19T09:39:12Z–09:41:06Z (00:01:54; 15:09:12–15:11:06 IST)
+- Total run: 2026-10-19T09:38:38Z–09:41:06Z (00:02:27; 15:08:38–15:11:06 IST)
+- Unclassified interval: 00:00:08 between marked phases. Total includes this interval; phase values are copied from the timer ledger.
 
 ## Delivery
 
