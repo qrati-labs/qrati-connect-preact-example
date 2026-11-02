@@ -1,5 +1,6 @@
 # BugHunter reports
 
+- [20261018T121638Z — Preact FAQ disclosure workflow](reports/20261018T121638Z-preact-faq-disclosures.md) — report-only; no confirmed defect.
 - [20261018T041138Z — Preact crawler discovery](reports/20261018T041138Z-preact-crawler-discovery.md) — report-only; no confirmed defect.
 # BugHunter audit index
 
