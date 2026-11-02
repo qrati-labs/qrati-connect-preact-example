@@ -1,18 +1,20 @@
 import { useState } from 'preact/hooks';
 import QratiConnect from '@qratilabs/qrati-connect';
 import { ORGANIZATION_ID, GITHUB_ORG, REPO } from './config';
+import { getInitialTheme, persistTheme, readSavedTheme, type Theme } from './theme.js';
 
 const repoUrl = `https://github.com/${GITHUB_ORG}/${REPO}`;
 const vscodeUrl = `https://vscode.dev/github/${GITHUB_ORG}/${REPO}`;
 const year = new Date().getFullYear();
 
-function initTheme(): 'light' | 'dark' {
-  const t =
-    (localStorage.getItem('qc-theme') as 'light' | 'dark') ||
-    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  document.documentElement.setAttribute('data-theme', t);
-  document.documentElement.classList.toggle('dark', t === 'dark');
-  return t;
+function initTheme(): Theme {
+  const theme = getInitialTheme(
+    readSavedTheme(),
+    window.matchMedia('(prefers-color-scheme: dark)').matches,
+  );
+  document.documentElement.setAttribute('data-theme', theme);
+  document.documentElement.classList.toggle('dark', theme === 'dark');
+  return theme;
 }
 
 export function App() {
@@ -23,7 +25,7 @@ export function App() {
     setTheme(next);
     document.documentElement.setAttribute('data-theme', next);
     document.documentElement.classList.toggle('dark', next === 'dark');
-    localStorage.setItem('qc-theme', next);
+    persistTheme(next);
   };
 
   return (
