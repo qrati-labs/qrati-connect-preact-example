@@ -38,9 +38,13 @@ async function checkConsentRequired() {
       ? '/api/cookie-consent-geo'
       : 'https://qrati.com/api/cookie-consent-geo'
     const response = await fetch(geoUrl, { cache: 'no-store' })
-    const { required } = (await response.json()) as { required: boolean }
-    sessionStorage.setItem(GEO_STORAGE_KEY, String(required))
-    return required
+    if (!response.ok) return true
+
+    const payload = (await response.json()) as { required?: unknown }
+    if (typeof payload.required !== 'boolean') return true
+
+    sessionStorage.setItem(GEO_STORAGE_KEY, String(payload.required))
+    return payload.required
   } catch {
     return true
   }
