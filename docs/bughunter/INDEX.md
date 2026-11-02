@@ -1,3 +1,6 @@
+# BugHunter reports
+
+- [2026-10-17 — Preact application bootstrap and consent initialization](reports/20261017T085639Z-preact-bootstrap.md) — no confirmed defect; report-only.
 # BugHunter Reports
 
 - [Preact worker HTML transformation audit](reports/20261016T184138Z-preact-worker-html.md) — report-only review of asset routing and HTML response transformation.
