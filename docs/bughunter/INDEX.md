@@ -1,5 +1,8 @@
 # BugHunter reports
 
+| Date (UTC) | Scope | Result | Report |
+|---|---|---|---|
+| 2026-10-18 | Preact footer navigation and conversion links | Report-only; no confirmed defect | [20261018T175439Z-preact-footer-links.md](reports/20261018T175439Z-preact-footer-links.md) |
 - [20261018T121638Z — Preact FAQ disclosure workflow](reports/20261018T121638Z-preact-faq-disclosures.md) — report-only; no confirmed defect.
 - [20261018T041138Z — Preact crawler discovery](reports/20261018T041138Z-preact-crawler-discovery.md) — report-only; no confirmed defect.
 # BugHunter audit index
