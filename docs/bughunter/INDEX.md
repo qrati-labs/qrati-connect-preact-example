@@ -3,6 +3,11 @@
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
 | 2026-10-19 | Preact feature-map icon delivery | P3 confirmed; local fallback fix; tests authored, NOT RUN BY BUGHUNTER; total 00:02:27 (15:08:38–15:11:06 IST) | [Report](reports/2026-10-19T09-38Z-preact-feature-map-icons.md) |
+Bounded workflow audits and findings. Each report records scope, evidence, disposition, timing, and verification boundaries.
+
+| Date (UTC) | Workflow | Result | Report |
+|---|---|---|---|
+| 2026-10-19 | Preact mounted-path static asset routing | Report-only; preflight 00:00:24 (05:16:42–05:17:07 UTC); audit/total timing incomplete | [Report](reports/2026-10-19T05-17Z-preact-static-assets.md) |
 # BugHunter audit index
 
 | UTC | Workflow | Repository / base SHA | Outcome / severity | Tests and coverage | Research sources | PR / blocker |
