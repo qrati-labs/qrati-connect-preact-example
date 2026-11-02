@@ -1,3 +1,8 @@
+# BugHunter audit index
+
+| Date (UTC) | Workflow | Disposition | Report |
+|---|---|---|---|
+| 2026-10-18 | Preact cookie-consent initialization | Report-only; no additional confirmed defect | [20261018T011539Z-preact-consent-initialization.md](reports/20261018T011539Z-preact-consent-initialization.md) |
 # BugHunter reports
 
 - [2026-10-17 — Preact decorative feature icons](reports/20261017T193638Z-preact-feature-icons.md) — report-only; no confirmed defect.
