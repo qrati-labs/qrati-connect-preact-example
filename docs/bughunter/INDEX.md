@@ -1,3 +1,6 @@
+# BugHunter reports
+
+- [Preact organization configuration workflow](reports/20261016T164839Z-preact-org-config.md) — report-only audit; no confirmed defect.
 # BugHunter audit tracker
 
 | Date (UTC) | Workflow | Reviewed base SHA | Finding / disposition | Issue | Report | PR | Measured wall time |
