@@ -1,3 +1,5 @@
+# BugHunter audits
+
 # BugHunter reports
 
 - [2026-10-19 — Preact theme preference storage](reports/2026-10-19T1800Z-preact-theme-storage.md) — report-only audit; no confirmed defect. [PR #23](https://github.com/qrati-labs/qrati-connect-preact-example/pull/23).
@@ -12,6 +14,7 @@ Bounded workflow audits and findings. Each report records scope, evidence, dispo
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-10-21 | Preact cookie-consent initialization | Report-only; no confirmed defect; measured total 00:01:04 (12:52:39–12:53:42 UTC; 18:22:39–18:23:42 IST), excludes report/PR delivery | [Report](reports/2026-10-21T12-52Z-preact-cookie-consent.md) |
 | 2026-10-20 | Preact widget organization configuration | Report-only; no confirmed defect; total 00:02:04 (13:22:39–13:24:43 UTC; 18:52:39–18:54:43 IST) | [Report](reports/2026-10-20T13-22Z-preact-widget-config.md) |
 | 2026-10-19 | Preact mounted-path static asset routing | Report-only; preflight 00:00:24 (05:16:42–05:17:07 UTC); audit/total timing incomplete | [Report](reports/2026-10-19T05-17Z-preact-static-assets.md) |
 # BugHunter audit index
