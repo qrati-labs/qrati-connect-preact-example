@@ -52,4 +52,17 @@ No live `qrati.com` request, no browser network log, no cookie set by fonts.gsta
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
 
-Timing table will be inserted after `finish`.
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed |
+|---|---|---|---|
+| `preflight` | 2026-11-05T14:59:38Z | 2026-11-05T15:00:02Z | 00:00:24 (0.4 min) |
+| `audit` | 2026-11-05T15:00:22Z | 2026-11-05T15:03:40Z | 00:03:18 (3.3 min) |
+| `delivery` | 2026-11-05T15:03:40Z | 2026-11-05T15:04:14Z | 00:00:34 (0.6 min) |
+| **Total run (preflight start to finish)** | 2026-11-05T14:59:38Z | 2026-11-05T15:04:14Z | **00:04:36 (4.6 min)** |
+| Unclassified interval between marked phases | — | — | 00:00:20 (0.3 min) |
+
+- Preflight: 20:29:38–20:30:02 IST
+- Audit: 20:30:22–20:33:40 IST
+- Delivery: 20:33:40–20:34:14 IST
+- Total: 20:29:38–20:34:14 IST
+
+Timing-table insertion itself occurs after this measurement snapshot.
