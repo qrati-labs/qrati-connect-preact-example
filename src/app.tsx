@@ -1,6 +1,7 @@
 import { useState } from 'preact/hooks';
 import QratiConnect from '@qratilabs/qrati-connect';
 import { ORGANIZATION_ID, GITHUB_ORG, REPO } from './config';
+import { showCookiePreferences } from './lib/cookieConsent';
 import { getInitialTheme, persistTheme, readSavedTheme, type Theme } from './theme.js';
 
 const repoUrl = `https://github.com/${GITHUB_ORG}/${REPO}`;
@@ -115,6 +116,14 @@ export function App() {
                 <a href="https://www.npmjs.com/package/@qratilabs/qrati-connect" target="_blank" rel="noopener noreferrer">npm</a>
                 <a href={`https://github.com/${GITHUB_ORG}`} target="_blank" rel="noopener noreferrer">GitHub</a>
                 <a href="https://qrati.com/pricing" target="_blank" rel="noopener noreferrer">Pricing</a>
+                <button
+                  type="button"
+                  class="footer-cookie-btn"
+                  data-cc="show-preferencesModal"
+                  onClick={() => void showCookiePreferences()}
+                >
+                  Cookie Preferences
+                </button>
               </nav>
               <p class="footer-note">© {year} Qrati Labs. All rights reserved.</p>
             </div>

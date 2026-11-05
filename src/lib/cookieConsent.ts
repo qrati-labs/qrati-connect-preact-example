@@ -79,3 +79,9 @@ export function initCookieConsent() {
   })()
   return initPromise
 }
+
+export async function showCookiePreferences() {
+  if (typeof window === 'undefined') return
+  await initCookieConsent()
+  CookieConsent.showPreferences()
+}
