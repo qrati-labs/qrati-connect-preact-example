@@ -257,6 +257,20 @@ body {
 .footer nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1.15rem; }
 .footer a { font-size: 0.78rem; font-weight: 500; transition: color 160ms ease; }
 .footer a:hover { color: var(--footer-link-hover); }
+.footer-cookie-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: var(--footer-muted);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 160ms ease;
+}
+.footer-cookie-btn:hover { color: var(--footer-link-hover); }
+.footer-cookie-btn:focus-visible { outline: 2px solid var(--brand-accent); outline-offset: 2px; }
 
 @media (min-width: 640px) {
   .page-frame { padding: 2.75rem 1.5rem 2rem; }
