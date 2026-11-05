@@ -53,4 +53,12 @@ No browser click of the live preferences modal in this run. Confidence is high a
 
 Copied from the timer ledger (`finish`). IST = UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T17:39:38Z | 2026-11-05T17:40:01Z | 00:00:23 (0.4 min) | 23:09:38–23:10:01 |
+| `audit` | 2026-11-05T17:40:13Z | 2026-11-05T17:48:17Z | 00:08:03 (8.1 min) | 23:10:13–23:18:17 |
+| `delivery` | 2026-11-05T17:48:17Z | 2026-11-05T17:49:10Z | 00:00:53 (0.9 min) | 23:18:17–23:19:10 |
+| **Total run (preflight start to finish)** | 2026-11-05T17:39:38Z | 2026-11-05T17:49:10Z | **00:09:32 (9.5 min)** | **23:09:38–23:19:10** |
+| Unclassified interval between marked phases | — | — | 00:00:12 (0.2 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot.
