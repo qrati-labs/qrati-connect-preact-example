@@ -49,4 +49,14 @@ No reachable host invariant was violated: the prop is the supported literal, it 
 
 ## Timing (measured wall-clock)
 
-Timing table inserted from the ledger after `finish`.
+Copied from the timer ledger (`finish`). IST is UTC+05:30.
+
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T12:22:38Z | 2026-11-05T12:23:01Z | 00:00:23 (0.4 min) | 17:52:38–17:53:01 |
+| `audit` | 2026-11-05T12:23:21Z | 2026-11-05T12:28:05Z | 00:04:44 (4.7 min) | 17:53:21–17:58:05 |
+| `delivery` | 2026-11-05T12:28:05Z | 2026-11-05T12:28:57Z | 00:00:52 (0.9 min) | 17:58:05–17:58:57 |
+| **Total run (preflight start to finish)** | 2026-11-05T12:22:38Z | 2026-11-05T12:28:57Z | **00:06:19 (6.3 min)** | **17:52:38–17:58:57** |
+| Unclassified interval between marked phases | — | — | 00:00:20 (0.3 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot.
