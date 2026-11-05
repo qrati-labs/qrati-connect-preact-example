@@ -52,4 +52,14 @@ No Android Chrome / Safari toolbar session and no live `qrati.com` GET in this r
 
 ## Timing (measured wall-clock)
 
-Timing table inserted after `finish`.
+Copied from the timer ledger (`finish`). IST = UTC+05:30.
+
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T20:17:38Z | 2026-11-05T20:18:02Z | 00:00:24 (0.4 min) | 01:47:38–01:48:02 |
+| `audit` | 2026-11-05T20:18:22Z | 2026-11-05T20:21:50Z | 00:03:28 (3.5 min) | 01:48:22–01:51:50 |
+| `delivery` | 2026-11-05T20:21:50Z | 2026-11-05T20:22:41Z | 00:00:51 (0.8 min) | 01:51:50–01:52:41 |
+| **Total run (preflight start to finish)** | 2026-11-05T20:17:38Z | 2026-11-05T20:22:41Z | **00:05:03 (5.0 min)** | **01:47:38–01:52:41** |
+| Unclassified interval between marked phases | — | — | 00:00:20 (0.3 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot.
