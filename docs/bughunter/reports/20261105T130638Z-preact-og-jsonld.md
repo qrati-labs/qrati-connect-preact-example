@@ -51,7 +51,17 @@ No reachable invariant was violated for this workflow.
 
 ## Timing (measured wall-clock)
 
-Timing table will be inserted from the timer ledger after `finish`.
+Copied from the timer ledger (`finish`). IST is UTC+05:30.
+
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T13:06:38Z | 2026-11-05T13:07:00Z | 00:00:22 (0.4 min) | 18:36:38–18:37:00 |
+| `audit` | 2026-11-05T13:07:13Z | 2026-11-05T13:09:04Z | 00:01:51 (1.9 min) | 18:37:13–18:39:04 |
+| `delivery` | 2026-11-05T13:09:04Z | 2026-11-05T13:10:00Z | 00:00:56 (0.9 min) | 18:39:04–18:40:00 |
+| **Total run (preflight start to finish)** | 2026-11-05T13:06:38Z | 2026-11-05T13:10:00Z | **00:03:22 (3.4 min)** | **18:36:38–18:40:00** |
+| Unclassified interval between marked phases | — | — | 00:00:13 (0.2 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot.
 
 ## Sources
 
