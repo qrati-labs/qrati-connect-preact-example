@@ -53,4 +53,19 @@ No live `qrati.com` geo response, no CORS probe from localhost, no browser sessi
 
 ## Timing
 
-TIMING_TABLE_PLACEHOLDER
+Copied from the timer ledger after `finish`. IST = UTC+05:30.
+
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T19:33:38Z | 2026-11-05T19:34:02Z | 00:00:24 (0.4 min) | 01:03:38–01:04:02 |
+| `audit` | 2026-11-05T19:34:19Z | 2026-11-05T19:38:52Z | 00:04:33 (4.5 min) | 01:04:19–01:08:52 |
+| `delivery` | 2026-11-05T19:38:52Z | 2026-11-05T19:39:28Z | 00:00:36 (0.6 min) | 01:08:52–01:09:28 |
+| **Total run (preflight start to finish)** | 2026-11-05T19:33:38Z | 2026-11-05T19:39:28Z | **00:05:50 (5.8 min)** | **01:03:38–01:09:28** |
+| Unclassified interval between marked phases | — | — | 00:00:17 (0.3 min) | — |
+
+- Preflight: 01:03:38–01:04:02 IST (6 Nov)
+- Audit: 01:04:19–01:08:52 IST (6 Nov)
+- Delivery: 01:08:52–01:09:28 IST (6 Nov)
+- Total: 01:03:38–01:09:28 IST (6 Nov)
+
+Timing-table insertion occurred after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
