@@ -51,4 +51,17 @@ No screen-reader or speech-recognition session. Accessible name inferred from ma
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T22:30:39Z | 2026-11-05T22:31:02Z | 00:00:23 (0.4 min) | 04:00:39–04:01:02 |
+| `audit` | 2026-11-05T22:31:15Z | 2026-11-05T22:36:00Z | 00:04:45 (4.8 min) | 04:01:15–04:06:00 |
+| `delivery` | 2026-11-05T22:35:53Z | 2026-11-05T22:36:19Z | 00:00:26 (0.4 min) | 04:05:53–04:06:19 |
+| **Total run (preflight start to finish)** | 2026-11-05T22:30:39Z | 2026-11-05T22:36:19Z | **00:05:40 (5.7 min)** | **04:00:39–04:06:19** |
+| Unclassified interval between marked phases | — | — | 00:00:06 (0.1 min) | — |
+
+- Preflight: 04:00:39–04:01:02 IST (6 Nov)
+- Audit: 04:01:15–04:06:00 IST (6 Nov)
+- Delivery: 04:05:53–04:06:19 IST (6 Nov)
+- Total: 04:00:39–04:06:19 IST (6 Nov)
+
+Timing-table insertion occurred after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time. Audit and delivery segments overlap by 7s in the ledger (`delivery` started before `audit` ended).
