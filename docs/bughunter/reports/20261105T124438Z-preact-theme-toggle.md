@@ -50,4 +50,12 @@ No reachable host invariant was violated: toggle output is only `light`/`dark`, 
 
 Copied from the timer ledger (`finish`). IST is UTC+05:30.
 
-_timing table inserted after `finish`_
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T12:44:38Z | 2026-11-05T12:45:00Z | 00:00:22 (0.4 min) | 18:14:38–18:15:00 |
+| `audit` | 2026-11-05T12:45:18Z | 2026-11-05T12:50:05Z | 00:04:46 (4.8 min) | 18:15:18–18:20:05 |
+| `delivery` | 2026-11-05T12:50:05Z | 2026-11-05T12:50:35Z | 00:00:31 (0.5 min) | 18:20:05–18:20:35 |
+| **Total run (preflight start to finish)** | 2026-11-05T12:44:38Z | 2026-11-05T12:50:35Z | **00:05:57 (6.0 min)** | **18:14:38–18:20:35** |
+| Unclassified interval between marked phases | — | — | 00:00:18 (0.3 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot.
