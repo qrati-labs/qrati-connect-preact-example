@@ -52,4 +52,17 @@ No browser screenshot of the banner vs the toggle. No live `qrati.com` request. 
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T22:52:38Z | 2026-11-05T22:53:00Z | 00:00:22 (0.4 min) | 04:22:38–04:23:00 |
+| `audit` | 2026-11-05T22:53:28Z | 2026-11-05T22:57:40Z | 00:04:12 (4.2 min) | 04:23:28–04:27:40 |
+| `delivery` | 2026-11-05T22:57:40Z | 2026-11-05T22:58:35Z | 00:00:54 (0.9 min) | 04:27:40–04:28:35 |
+| **Total run (preflight start to finish)** | 2026-11-05T22:52:38Z | 2026-11-05T22:58:35Z | **00:05:57 (6.0 min)** | **04:22:38–04:28:35** |
+| Unclassified interval between marked phases | — | — | 00:00:28 (0.5 min) | — |
+
+- Preflight: 04:22:38–04:23:00 IST (6 Nov)
+- Audit: 04:23:28–04:27:40 IST (6 Nov)
+- Delivery: 04:27:40–04:28:35 IST (6 Nov)
+- Total: 04:22:38–04:28:35 IST (6 Nov)
+
+Timing-table insertion occurred after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
