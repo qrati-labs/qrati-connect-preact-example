@@ -56,7 +56,17 @@ No reachable host invariant was violated for this workflow.
 
 ## Timing (measured wall-clock)
 
-TIMING_TABLE_PLACEHOLDER
+Copied from the timer ledger (`finish`). IST is UTC+05:30.
+
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T16:05:38Z | 2026-11-05T16:06:01Z | 00:00:24 (0.4 min) | 21:35:38–21:36:01 |
+| `audit` | 2026-11-05T16:06:18Z | 2026-11-05T16:10:38Z | 00:04:20 (4.3 min) | 21:36:18–21:40:38 |
+| `delivery` | 2026-11-05T16:10:38Z | 2026-11-05T16:11:34Z | 00:00:57 (0.9 min) | 21:40:38–21:41:34 |
+| **Total run (preflight start to finish)** | 2026-11-05T16:05:38Z | 2026-11-05T16:11:34Z | **00:05:57 (6.0 min)** | **21:35:38–21:41:34** |
+| Unclassified interval between marked phases | — | — | 00:00:16 (0.3 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot.
 
 ## Sources
 
