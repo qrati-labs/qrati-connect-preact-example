@@ -50,4 +50,19 @@ No browser screenshot of PhotoSwipe vs the toggle. No live `qrati.com` request. 
 
 ## Timing
 
-TIMING_TABLE_PLACEHOLDER
+Copied from the timer ledger after `finish`. IST = UTC+05:30.
+
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T21:42:38Z | 2026-11-05T21:43:02Z | 00:00:24 (0.4 min) | 03:12:38–03:13:02 |
+| `audit` | 2026-11-05T21:43:19Z | 2026-11-05T21:52:12Z | 00:08:53 (8.9 min) | 03:13:19–03:22:12 |
+| `delivery` | 2026-11-05T21:52:12Z | 2026-11-05T21:52:12Z | 00:00:00 (0.0 min) | 03:22:12–03:22:12 |
+| **Total run (preflight start to finish)** | 2026-11-05T21:42:38Z | 2026-11-05T21:52:12Z | **00:09:34 (9.6 min)** | **03:12:38–03:22:12** |
+| Unclassified interval between marked phases | — | — | 00:00:17 (0.3 min) | — |
+
+- Preflight: 03:12:38–03:13:02 IST (6 Nov)
+- Audit: 03:13:19–03:22:12 IST (6 Nov)
+- Delivery: 03:22:12 IST (6 Nov)
+- Total: 03:12:38–03:22:12 IST (6 Nov)
+
+Timing-table insertion occurred after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
