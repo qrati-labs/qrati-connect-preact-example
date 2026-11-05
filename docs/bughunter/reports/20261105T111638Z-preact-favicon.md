@@ -43,4 +43,16 @@ No live HTTP request to qrati.com, no `vite build` inspection of `dist/index.htm
 
 ## Timing
 
-Timing table is inserted from the ledger after `finish` (see update before merge).
+Copied from the timer ledger. IST = UTC+05:30.
+
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed |
+|---|---|---|---|
+| `preflight` | 2026-11-05T11:16:38Z | 2026-11-05T11:17:02Z | 00:00:24 (0.4 min) |
+| `audit` | 2026-11-05T11:17:26Z | 2026-11-05T11:21:39Z | 00:04:13 (4.2 min) |
+| **Total run (preflight start to finish)** | 2026-11-05T11:16:38Z | 2026-11-05T11:21:39Z | **00:05:01 (5.0 min)** |
+| Unclassified interval between marked phases | — | — | 00:00:24 (0.4 min) |
+
+- Preflight: 16:46:38–16:47:02 IST
+- Audit: 16:47:26–16:51:39 IST
+- Total: 16:46:38–16:51:39 IST
+- Report/PR push after this snapshot is not a separately timed phase.
