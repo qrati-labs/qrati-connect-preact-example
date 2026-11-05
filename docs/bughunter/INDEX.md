@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact host-controlled theme toggle | Report-only; no confirmed defect | [20261105T124438Z-preact-theme-toggle.md](reports/20261105T124438Z-preact-theme-toggle.md) |
 | 2026-11-05 | Preact hash-router gallery embed | Report-only; no confirmed defect | [20261105T122238Z-preact-hash-router.md](reports/20261105T122238Z-preact-hash-router.md) |
 | 2026-11-05 | Preact cookie-consent opt-out analytics | P2 confirmed; `analytics.enabled: true`; issue #29 | [20261105T120039Z-preact-consent-opt-out.md](reports/20261105T120039Z-preact-consent-opt-out.md) |
 | 2026-11-05 | Preact favicon delivery | P3 confirmed; `%BASE_URL%` icon href; issue #27 | [20261105T111638Z-preact-favicon.md](reports/20261105T111638Z-preact-favicon.md) |
