@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact theme-toggle Label in Name | P3 confirmed; drop static aria-label; issue #61 | [20261105T223039Z-preact-theme-toggle-label-in-name.md](reports/20261105T223039Z-preact-theme-toggle-label-in-name.md) |
 | 2026-11-05 | Preact Consent Mode ad storage vs analytics category | Report-only; no confirmed defect | [20261105T220838Z-preact-consent-ads-signals.md](reports/20261105T220838Z-preact-consent-ads-signals.md) |
 | 2026-11-05 | Preact theme-toggle vs Connect PhotoSwipe stacking | P3 confirmed; remove `.page-shell` isolation; issue #58 | [20261105T214238Z-preact-theme-toggle-stacking.md](reports/20261105T214238Z-preact-theme-toggle-stacking.md) |
 | 2026-11-05 | Preact Consent Mode wait_for_update | Report-only; no confirmed defect | [20261105T212038Z-preact-consent-wait-for-update.md](reports/20261105T212038Z-preact-consent-wait-for-update.md) |
