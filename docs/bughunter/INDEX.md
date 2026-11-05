@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact Open Graph / JSON-LD social preview | Report-only; no confirmed defect | [20261105T130638Z-preact-og-jsonld.md](reports/20261105T130638Z-preact-og-jsonld.md) |
 | 2026-11-05 | Preact host-controlled theme toggle | Report-only; no confirmed defect | [20261105T124438Z-preact-theme-toggle.md](reports/20261105T124438Z-preact-theme-toggle.md) |
 | 2026-11-05 | Preact hash-router gallery embed | Report-only; no confirmed defect | [20261105T122238Z-preact-hash-router.md](reports/20261105T122238Z-preact-hash-router.md) |
 | 2026-11-05 | Preact cookie-consent opt-out analytics | P2 confirmed; `analytics.enabled: true`; issue #29 | [20261105T120039Z-preact-consent-opt-out.md](reports/20261105T120039Z-preact-consent-opt-out.md) |
