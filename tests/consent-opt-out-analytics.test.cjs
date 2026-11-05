@@ -13,7 +13,8 @@ test('geo opt-out configures analytics as enabled by default', () => {
   assert.match(src, /autoShow:\s*required/);
   assert.match(
     src,
-    /categories:\s*\{\s*necessary:\s*\{\s*enabled:\s*true,\s*readOnly:\s*true\s*\},\s*analytics:\s*\{\s*enabled:\s*true\s*\}/,
+    /categories:\s*\{\s*necessary:\s*\{\s*enabled:\s*true,\s*readOnly:\s*true\s*\},\s*analytics:\s*\{\s*enabled:\s*!required\s*\}/,
   );
   assert.doesNotMatch(src, /analytics:\s*\{\s*\}/);
+  assert.doesNotMatch(src, /analytics:\s*\{\s*enabled:\s*true\s*\}/);
 });
