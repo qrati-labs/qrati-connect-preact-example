@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact live gallery organizationId fallback | P2 confirmed; empty org id; issue #38 | [20261105T152038Z-preact-org-id-fallback.md](reports/20261105T152038Z-preact-org-id-fallback.md) |
 | 2026-11-05 | Preact Google Fonts load vs cookie-consent gate | Report-only; no confirmed defect | [20261105T145938Z-preact-google-fonts.md](reports/20261105T145938Z-preact-google-fonts.md) |
 | 2026-11-05 | Preact Worker prefix routing and SPA HTML delivery | Report-only; no confirmed defect | [20261105T134938Z-preact-worker-spa-routing.md](reports/20261105T134938Z-preact-worker-spa-routing.md) |
 | 2026-11-05 | Preact consent-gated GTM bootstrap | P2 confirmed; missing dataLayer `gtm.js` event; issue #34 | [20261105T132638Z-preact-gtm-bootstrap.md](reports/20261105T132638Z-preact-gtm-bootstrap.md) |
