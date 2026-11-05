@@ -52,4 +52,12 @@ No browser click of the live modal in this run. Confidence is high against libra
 
 Copied from the timer ledger (`finish`). IST = UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T17:16:38Z | 2026-11-05T17:17:02Z | 00:00:24 (0.4 min) | 22:46:38–22:47:02 |
+| `audit` | 2026-11-05T17:17:19Z | 2026-11-05T17:22:45Z | 00:05:25 (5.4 min) | 22:47:19–22:52:45 |
+| `delivery` | 2026-11-05T17:22:39Z | 2026-11-05T17:23:25Z | 00:00:46 (0.8 min) | 22:52:39–22:53:25 |
+| **Total run (preflight start to finish)** | 2026-11-05T17:16:38Z | 2026-11-05T17:23:25Z | **00:06:47 (6.8 min)** | **22:46:38–22:53:25** |
+| Unclassified interval between marked phases | — | — | 00:00:12 (0.2 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot. Audit and delivery overlap because delivery started before audit was closed.
