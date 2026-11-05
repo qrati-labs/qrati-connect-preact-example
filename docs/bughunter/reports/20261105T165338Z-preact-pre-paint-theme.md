@@ -43,4 +43,12 @@ Sibling Connect hosts (React, Vue, Solid, Qwik, Svelte, Next, Angular) already s
 
 Copied from the timer ledger (`finish`). IST is UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T16:53:38Z | 2026-11-05T16:54:01Z | 00:00:23 (0.4 min) | 22:23:38–22:24:01 |
+| `audit` | 2026-11-05T16:54:24Z | 2026-11-05T16:59:29Z | 00:05:05 (5.1 min) | 22:24:24–22:29:29 |
+| `delivery` | 2026-11-05T16:59:29Z | 2026-11-05T17:00:34Z | 00:01:05 (1.1 min) | 22:29:29–22:30:34 |
+| **Total run (preflight start to finish)** | 2026-11-05T16:53:38Z | 2026-11-05T17:00:34Z | **00:06:56 (6.9 min)** | **22:23:38–22:30:34** |
+| Unclassified interval between marked phases | — | — | 00:00:24 (0.4 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot.
