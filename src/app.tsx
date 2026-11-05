@@ -15,6 +15,7 @@ function initTheme(): Theme {
   );
   document.documentElement.setAttribute('data-theme', theme);
   document.documentElement.classList.toggle('dark', theme === 'dark');
+  document.documentElement.classList.toggle('cc--darkmode', theme === 'dark');
   return theme;
 }
 
@@ -26,6 +27,7 @@ export function App() {
     setTheme(next);
     document.documentElement.setAttribute('data-theme', next);
     document.documentElement.classList.toggle('dark', next === 'dark');
+    document.documentElement.classList.toggle('cc--darkmode', next === 'dark');
     persistTheme(next);
   };
 
