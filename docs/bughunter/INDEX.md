@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact iOS Web Clip / apple-touch-icon | Report-only; no confirmed defect | [20261105T195538Z-preact-apple-touch-icon.md](reports/20261105T195538Z-preact-apple-touch-icon.md) |
 | 2026-11-05 | Preact cookie-consent geo lookup | Report-only; no confirmed defect | [20261105T193338Z-preact-consent-geo-lookup.md](reports/20261105T193338Z-preact-consent-geo-lookup.md) |
 | 2026-11-05 | Preact FAQ disclosure workflow | Report-only; no confirmed defect | [20261105T191138Z-preact-faq-disclosures.md](reports/20261105T191138Z-preact-faq-disclosures.md) |
 | 2026-11-05 | Preact cookie-consent dark mode | P3 confirmed; missing `cc--darkmode`; issue #50 | [20261105T184938Z-preact-consent-darkmode.md](reports/20261105T184938Z-preact-consent-darkmode.md) |
