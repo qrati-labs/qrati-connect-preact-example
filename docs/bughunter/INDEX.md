@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact FAQ disclosure workflow | Report-only; no confirmed defect | [20261105T191138Z-preact-faq-disclosures.md](reports/20261105T191138Z-preact-faq-disclosures.md) |
 | 2026-11-05 | Preact cookie-consent dark mode | P3 confirmed; missing `cc--darkmode`; issue #50 | [20261105T184938Z-preact-consent-darkmode.md](reports/20261105T184938Z-preact-consent-darkmode.md) |
 | 2026-11-05 | Preact analytics consent withdrawal | Report-only; no confirmed defect | [20261105T182638Z-preact-consent-withdrawal.md](reports/20261105T182638Z-preact-consent-withdrawal.md) |
 | 2026-11-05 | Preact opt-in analytics preference default | P3 confirmed; `enabled: !required`; issue #47 | [20261105T173938Z-preact-opt-in-analytics.md](reports/20261105T173938Z-preact-opt-in-analytics.md) |
