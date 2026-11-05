@@ -59,7 +59,7 @@ export function initCookieConsent() {
     await CookieConsent.run({
       mode: required ? 'opt-in' : 'opt-out',
       autoShow: required,
-      categories: { necessary: { enabled: true, readOnly: true }, analytics: {} },
+      categories: { necessary: { enabled: true, readOnly: true }, analytics: { enabled: true } },
       onFirstConsent: syncGtm,
       onConsent: syncGtm,
       onChange: syncGtm,
