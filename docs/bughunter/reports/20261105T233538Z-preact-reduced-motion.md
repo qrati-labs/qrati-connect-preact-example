@@ -43,7 +43,7 @@ Preact example host CSS motion vs `prefers-reduced-motion` only. Not adding a gl
 
 - Authored: none (report-only).
 - Tests/build/lint/type-check/install/package managers: **NOT RUN BY BUGHUNTER**
-- `git diff --check`: permitted; run at delivery
+- `git diff --check`: clean (docs only)
 - CodeGraph: unindexed for this worktree; focused reads used
 - Primary docs: [WCAG 2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html)
 
@@ -55,4 +55,17 @@ No browser with `prefers-reduced-motion` enabled, no live `qrati.com` request, n
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed |
+|---|---|---|---|
+| `preflight` | 2026-11-05T23:35:38Z | 2026-11-05T23:35:59Z | 00:00:21 (0.3 min) |
+| `audit` | 2026-11-05T23:36:20Z | 2026-11-05T23:39:26Z | 00:03:06 (3.1 min) |
+| `delivery` | 2026-11-05T23:39:26Z | 2026-11-05T23:40:13Z | 00:00:47 (0.8 min) |
+| **Total run (preflight start to finish)** | 2026-11-05T23:35:38Z | 2026-11-05T23:40:13Z | **00:04:35 (4.6 min)** |
+| Unclassified interval between marked phases | — | — | 00:00:21 (0.3 min) |
+
+- Preflight: 05:05:38–05:05:59 IST (6 Nov)
+- Audit: 05:06:20–05:09:26 IST (6 Nov)
+- Delivery: 05:09:26–05:10:13 IST (6 Nov)
+- Total: 05:05:38–05:10:13 IST (6 Nov)
+
+Timing-table insertion itself occurs after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
