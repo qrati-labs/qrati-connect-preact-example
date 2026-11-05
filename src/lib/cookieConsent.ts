@@ -22,6 +22,10 @@ function syncGtm() {
     ad_personalization: analytics ? 'granted' : 'denied',
   })
   if (!analytics || !gtmId || document.getElementById('gtm-script')) return
+  window.dataLayer.push({
+    'gtm.start': new Date().getTime(),
+    event: 'gtm.js',
+  })
   const script = document.createElement('script')
   script.id = 'gtm-script'
   script.async = true
