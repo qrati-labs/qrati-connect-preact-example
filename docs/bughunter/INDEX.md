@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact host prefers-reduced-motion | Report-only; no confirmed defect | [20261105T233538Z-preact-reduced-motion.md](reports/20261105T233538Z-preact-reduced-motion.md) |
 | 2026-11-05 | Preact FAQ structured data | Report-only; no confirmed defect | [20261105T231438Z-preact-faq-structured-data.md](reports/20261105T231438Z-preact-faq-structured-data.md) |
 | 2026-11-05 | Preact cookie-consent vs theme-toggle stacking | Report-only; no confirmed defect | [20261105T225238Z-preact-consent-theme-toggle-stacking.md](reports/20261105T225238Z-preact-consent-theme-toggle-stacking.md) |
 | 2026-11-05 | Preact theme-toggle Label in Name | P3 confirmed; drop static aria-label; issue #61 | [20261105T223039Z-preact-theme-toggle-label-in-name.md](reports/20261105T223039Z-preact-theme-toggle-label-in-name.md) |
