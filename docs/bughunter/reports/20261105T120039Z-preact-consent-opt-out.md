@@ -44,6 +44,15 @@ No live geo/GTM request, no vanilla-cookieconsent runtime execution in this run.
 
 ## Timing
 
-Copied from the timer ledger after `finish`. IST = UTC+05:30.
+Copied from the timer ledger. IST = UTC+05:30.
 
-timing incomplete
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed |
+|---|---|---|---|
+| `preflight` | 2026-11-05T12:00:39Z | 2026-11-05T12:01:01Z | 00:00:22 (0.4 min) |
+| `audit` | 2026-11-05T12:01:15Z | 2026-11-05T12:06:39Z | 00:05:24 (5.4 min) |
+| **Total run (preflight start to finish)** | 2026-11-05T12:00:39Z | 2026-11-05T12:06:39Z | **00:06:00 (6.0 min)** |
+| Unclassified interval between marked phases | — | — | 00:00:14 (0.2 min) |
+
+- Preflight: 17:30:39–17:31:01 IST
+- Audit: 17:31:15–17:36:39 IST
+- Total: 17:30:39–17:36:39 IST
