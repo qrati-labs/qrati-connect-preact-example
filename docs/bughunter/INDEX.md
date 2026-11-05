@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact analytics consent withdrawal | Report-only; no confirmed defect | [20261105T182638Z-preact-consent-withdrawal.md](reports/20261105T182638Z-preact-consent-withdrawal.md) |
 | 2026-11-05 | Preact opt-in analytics preference default | P3 confirmed; `enabled: !required`; issue #47 | [20261105T173938Z-preact-opt-in-analytics.md](reports/20261105T173938Z-preact-opt-in-analytics.md) |
 | 2026-11-05 | Preact cookie-preferences re-entry | P3 confirmed; missing footer control; issue #45 | [20261105T171638Z-preact-consent-preferences-entry.md](reports/20261105T171638Z-preact-consent-preferences-entry.md) |
 | 2026-11-05 | Preact pre-paint theme bootstrap | P3 confirmed; missing blocking theme script; issue #43 | [20261105T165338Z-preact-pre-paint-theme.md](reports/20261105T165338Z-preact-pre-paint-theme.md) |
