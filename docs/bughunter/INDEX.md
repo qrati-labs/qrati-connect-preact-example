@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact cookie-consent persistence | Report-only; no confirmed defect | [20261105T205938Z-preact-consent-cookie-persist.md](reports/20261105T205938Z-preact-consent-cookie-persist.md) |
 | 2026-11-05 | Preact browser chrome theme-color | Report-only; no confirmed defect | [20261105T201738Z-preact-theme-color.md](reports/20261105T201738Z-preact-theme-color.md) |
 | 2026-11-05 | Preact iOS Web Clip / apple-touch-icon | Report-only; no confirmed defect | [20261105T195538Z-preact-apple-touch-icon.md](reports/20261105T195538Z-preact-apple-touch-icon.md) |
 | 2026-11-05 | Preact cookie-consent geo lookup | Report-only; no confirmed defect | [20261105T193338Z-preact-consent-geo-lookup.md](reports/20261105T193338Z-preact-consent-geo-lookup.md) |
