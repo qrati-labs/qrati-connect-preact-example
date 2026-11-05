@@ -52,4 +52,17 @@ No live `qrati.com` request, no Tag Assistant session, no `VITE_GTM_ID` injected
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T18:26:38Z | 2026-11-05T18:27:03Z | 00:00:25 (0.4 min) | 23:56:38–23:57:03 |
+| `audit` | 2026-11-05T18:27:23Z | 2026-11-05T18:31:53Z | 00:04:31 (4.5 min) | 23:57:23–00:01:53 |
+| `delivery` | 2026-11-05T18:31:53Z | 2026-11-05T18:33:11Z | 00:01:18 (1.3 min) | 00:01:53–00:03:11 |
+| **Total run (preflight start to finish)** | 2026-11-05T18:26:38Z | 2026-11-05T18:33:11Z | **00:06:33 (6.5 min)** | **23:56:38–00:03:11** |
+| Unclassified interval between marked phases | — | — | 00:00:20 (0.3 min) | — |
+
+- Preflight: 23:56:38–23:57:03 IST (5 Nov)
+- Audit: 23:57:23 IST (5 Nov)–00:01:53 IST (6 Nov)
+- Delivery: 00:01:53–00:03:11 IST (6 Nov)
+- Total: 23:56:38 IST (5 Nov)–00:03:11 IST (6 Nov)
+
+Timing-table insertion occurred after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
