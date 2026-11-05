@@ -54,4 +54,17 @@ No browser execution of the consent GUI. Geo API not called. Sibling example con
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed |
+|---|---|---|---|
+| `preflight` | 2026-11-05T15:42:38Z | 2026-11-05T15:43:03Z | 00:00:25 (0.4 min) |
+| `audit` | 2026-11-05T15:43:20Z | 2026-11-05T15:48:41Z | 00:05:21 (5.3 min) |
+| `delivery` | 2026-11-05T15:48:41Z | 2026-11-05T15:49:09Z | 00:00:28 (0.5 min) |
+| **Total run (preflight start to finish)** | 2026-11-05T15:42:38Z | 2026-11-05T15:49:09Z | **00:06:31 (6.5 min)** |
+| Unclassified interval between marked phases | — | — | 00:00:17 (0.3 min) |
+
+- Preflight: 21:12:38–21:13:03 IST
+- Audit: 21:13:20–21:18:41 IST
+- Delivery: 21:18:41–21:19:09 IST
+- Total: 21:12:38–21:19:09 IST
+
+Timing-table insertion itself occurs after this measurement snapshot.
