@@ -53,4 +53,17 @@ No live `qrati.com` fetch, no wrangler build-env inspection, no execution of the
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed |
+|---|---|---|---|
+| `preflight` | 2026-11-05T15:20:38Z | 2026-11-05T15:21:01Z | 00:00:23 (0.4 min) |
+| `audit` | 2026-11-05T15:21:21Z | 2026-11-05T15:26:06Z | 00:04:45 (4.8 min) |
+| `delivery` | 2026-11-05T15:26:06Z | 2026-11-05T15:26:50Z | 00:00:44 (0.7 min) |
+| **Total run (preflight start to finish)** | 2026-11-05T15:20:38Z | 2026-11-05T15:26:50Z | **00:06:12 (6.2 min)** |
+| Unclassified interval between marked phases | — | — | 00:00:19 (0.3 min) |
+
+- Preflight: 20:50:38–20:51:01 IST
+- Audit: 20:51:21–20:56:06 IST
+- Delivery: 20:56:06–20:56:50 IST
+- Total: 20:50:38–20:56:50 IST
+
+Timing-table insertion itself occurs after this measurement snapshot.
