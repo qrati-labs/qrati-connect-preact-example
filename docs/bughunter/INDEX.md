@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact favicon delivery | P3 confirmed; `%BASE_URL%` icon href; issue #27 | [20261105T111638Z-preact-favicon.md](reports/20261105T111638Z-preact-favicon.md) |
 | 2026-10-18 | Preact theme preference validation | P2 confirmed; narrow source fix | [Audit report](reports/20261018T222038Z-preact-theme-validation.md) |
 # BugHunter audits
 
