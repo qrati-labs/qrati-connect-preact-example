@@ -50,6 +50,14 @@ No live GTM container execution in this run. Confidence is high against Google�
 
 ## Timing (measured wall-clock)
 
-Copied from the timer ledger after `finish`. IST = UTC+05:30.
+Copied from the timer ledger (`finish`). IST = UTC+05:30.
 
-_Timing table pending `finish`._
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T13:26:38Z | 2026-11-05T13:27:02Z | 00:00:24 (0.4 min) | 18:56:38–18:57:02 |
+| `audit` | 2026-11-05T13:27:28Z | 2026-11-05T13:33:43Z | 00:06:15 (6.2 min) | 18:57:28–19:03:43 |
+| `delivery` | 2026-11-05T13:32:47Z | 2026-11-05T13:33:43Z | 00:00:56 (0.9 min) | 19:02:47–19:03:43 |
+| **Total run (preflight start to finish)** | 2026-11-05T13:26:38Z | 2026-11-05T13:33:43Z | **00:07:05 (7.1 min)** | **18:56:38–19:03:43** |
+| Unclassified interval between marked phases | — | — | 00:00:00 (0.0 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot. Audit and delivery overlap because delivery started before audit was closed.
