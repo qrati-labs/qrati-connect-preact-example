@@ -52,4 +52,12 @@ No browser screenshot of `#cc-main` in dark mode. No live `qrati.com` request.
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T18:49:38Z | 2026-11-05T18:50:02Z | 00:00:24 (0.4 min) | 2026-11-06 00:19:38–00:20:02 |
+| `audit` | 2026-11-05T18:50:18Z | 2026-11-05T18:54:42Z | 00:04:24 (4.4 min) | 2026-11-06 00:20:18–00:24:42 |
+| `delivery` | 2026-11-05T18:54:42Z | 2026-11-05T18:55:23Z | 00:00:41 (0.7 min) | 2026-11-06 00:24:42–00:25:23 |
+| **Total run (preflight start to finish)** | 2026-11-05T18:49:38Z | 2026-11-05T18:55:23Z | **00:05:45 (5.8 min)** | **2026-11-06 00:19:38–00:25:23** |
+| Unclassified interval between marked phases | — | — | 00:00:16 (0.3 min) | — |
+
+Timing-table insertion itself occurs after this measurement snapshot.
