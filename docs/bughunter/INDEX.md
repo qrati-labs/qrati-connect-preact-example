@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact pre-paint theme bootstrap | P3 confirmed; missing blocking theme script; issue #43 | [20261105T165338Z-preact-pre-paint-theme.md](reports/20261105T165338Z-preact-pre-paint-theme.md) |
 | 2026-11-05 | Preact React-component embed via preact/compat | Report-only; no confirmed defect | [20261105T160538Z-preact-compat-embed.md](reports/20261105T160538Z-preact-compat-embed.md) |
 | 2026-11-05 | Preact cookie-consent preferences sections | P3 confirmed; empty `sections`; issue #40 | [20261105T154238Z-preact-consent-preferences.md](reports/20261105T154238Z-preact-consent-preferences.md) |
 | 2026-11-05 | Preact live gallery organizationId fallback | P2 confirmed; empty org id; issue #38 | [20261105T152038Z-preact-org-id-fallback.md](reports/20261105T152038Z-preact-org-id-fallback.md) |
