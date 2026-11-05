@@ -69,7 +69,10 @@ export function initCookieConsent() {
       onChange: syncGtm,
       language: { default: 'en', translations: { en: {
         consentModal: { title: 'We use cookies', description: 'Essential cookies keep this example working. Analytics cookies are optional.', acceptAllBtn: 'Accept all', acceptNecessaryBtn: 'Reject analytics', showPreferencesBtn: 'Manage preferences' },
-        preferencesModal: { title: 'Cookie preferences', acceptAllBtn: 'Accept all', acceptNecessaryBtn: 'Reject analytics', savePreferencesBtn: 'Save preferences', closeIconLabel: 'Close', sections: [] },
+        preferencesModal: { title: 'Cookie preferences', acceptAllBtn: 'Accept all', acceptNecessaryBtn: 'Reject analytics', savePreferencesBtn: 'Save preferences', closeIconLabel: 'Close', sections: [
+          { title: 'Strictly necessary cookies', description: 'Essential cookies keep this example working and cannot be disabled.', linkedCategory: 'necessary' },
+          { title: 'Analytics cookies', description: 'Optional analytics cookies are used only when you accept them and a GTM ID is configured.', linkedCategory: 'analytics' },
+        ] },
       } } },
     })
     syncGtm()
