@@ -52,4 +52,14 @@ No Safari/iOS Home Screen session and no live `qrati.com` icon GET in this run. 
 
 ## Timing (measured wall-clock)
 
-TIMING_TABLE_PLACEHOLDER
+Copied from the timer ledger (`finish`). IST = UTC+05:30.
+
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T19:55:38Z | 2026-11-05T19:56:01Z | 00:00:23 (0.4 min) | 01:25:38–01:26:01 |
+| `audit` | 2026-11-05T19:56:19Z | 2026-11-05T20:00:52Z | 00:04:34 (4.6 min) | 01:26:19–01:30:52 |
+| `delivery` | 2026-11-05T20:00:52Z | 2026-11-05T20:01:48Z | 00:00:56 (0.9 min) | 01:30:52–01:31:48 |
+| **Total run (preflight start to finish)** | 2026-11-05T19:55:38Z | 2026-11-05T20:01:49Z | **00:06:11 (6.2 min)** | **01:25:38–01:31:49** |
+| Unclassified interval between marked phases | — | — | 00:00:18 (0.3 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot.
