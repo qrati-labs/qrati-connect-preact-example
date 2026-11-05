@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact Worker prefix routing and SPA HTML delivery | Report-only; no confirmed defect | [20261105T134938Z-preact-worker-spa-routing.md](reports/20261105T134938Z-preact-worker-spa-routing.md) |
 | 2026-11-05 | Preact consent-gated GTM bootstrap | P2 confirmed; missing dataLayer `gtm.js` event; issue #34 | [20261105T132638Z-preact-gtm-bootstrap.md](reports/20261105T132638Z-preact-gtm-bootstrap.md) |
 | 2026-11-05 | Preact Open Graph / JSON-LD social preview | Report-only; no confirmed defect | [20261105T130638Z-preact-og-jsonld.md](reports/20261105T130638Z-preact-og-jsonld.md) |
 | 2026-11-05 | Preact host-controlled theme toggle | Report-only; no confirmed defect | [20261105T124438Z-preact-theme-toggle.md](reports/20261105T124438Z-preact-theme-toggle.md) |
