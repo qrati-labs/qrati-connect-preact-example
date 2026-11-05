@@ -33,7 +33,7 @@ export function App() {
 
   return (
     <>
-      <button class="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
+      <button class="theme-toggle" onClick={toggleTheme}>
         {theme === 'dark' ? '☀ Light' : '🌙 Dark'}
       </button>
 
