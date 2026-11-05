@@ -49,4 +49,19 @@ No Tag Assistant session, no live `qrati.com` request, no timing of the geo endp
 
 ## Timing (measured wall-clock)
 
-TIMING_PLACEHOLDER
+Copied from the timer ledger after `finish`. IST = UTC+05:30.
+
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-05T21:20:38Z | 2026-11-05T21:21:01Z | 00:00:23 (0.4 min) | 02:50:38–02:51:01 |
+| `audit` | 2026-11-05T21:21:17Z | 2026-11-05T21:25:48Z | 00:04:31 (4.5 min) | 02:51:17–02:55:48 |
+| `delivery` | 2026-11-05T21:25:48Z | 2026-11-05T21:26:33Z | 00:00:45 (0.8 min) | 02:55:48–02:56:33 |
+| **Total run (preflight start to finish)** | 2026-11-05T21:20:38Z | 2026-11-05T21:26:33Z | **00:05:55 (5.9 min)** | **02:50:38–02:56:33** |
+| Unclassified interval between marked phases | — | — | 00:00:16 (0.3 min) | — |
+
+- Preflight: 02:50:38–02:51:01 IST (6 Nov)
+- Audit: 02:51:17–02:55:48 IST (6 Nov)
+- Delivery: 02:55:48–02:56:33 IST (6 Nov)
+- Total: 02:50:38–02:56:33 IST (6 Nov)
+
+Timing-table insertion occurred after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
