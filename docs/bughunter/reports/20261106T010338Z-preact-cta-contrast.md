@@ -50,4 +50,17 @@ No browser computed-style capture or axe run. Ratios are from source hex tokens 
 
 ## Timing (measured wall-clock)
 
-Timing table will be copied from the timer ledger after `finish`. IST = UTC+05:30.
+Copied from the timer ledger after `finish`. IST = UTC+05:30.
+
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed |
+|---|---|---|---|
+| `preflight` | 2026-11-06T01:03:38Z | 2026-11-06T01:04:00Z | 00:00:22 (0.4 min) |
+| `audit` | 2026-11-06T01:04:19Z | 2026-11-06T01:11:11Z | 00:06:53 (6.9 min) |
+| **Total run (preflight start to finish)** | 2026-11-06T01:03:38Z | 2026-11-06T01:11:11Z | **00:07:33 (7.5 min)** |
+| Unclassified interval between marked phases | — | — | 00:00:18 (0.3 min) |
+
+- Preflight: 06:33:38–06:34:00 IST (6 Nov)
+- Audit: 06:34:19–06:41:11 IST (6 Nov)
+- Total: 06:33:38–06:41:11 IST (6 Nov)
+
+Timing-table insertion itself occurs after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
