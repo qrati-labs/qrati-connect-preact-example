@@ -54,6 +54,7 @@ html.dark #cc-main,
   --page-heading: #1a1a2e;
   --page-muted: #4a5568;
   --brand-accent: #e14f00;
+  --cta-bg: #cc3d00;
   --pill-border: rgba(0, 0, 0, 0.12);
   --pill-bg: rgba(255, 255, 255, 0.85);
   --pill-text: #374151;
@@ -84,6 +85,7 @@ html.dark #cc-main,
   --page-heading: #f0f0f5;
   --page-muted: rgba(255, 255, 255, 0.6);
   --brand-accent: #ff6b35;
+  --cta-bg: #cc3d00;
   --pill-border: rgba(255, 255, 255, 0.12);
   --pill-bg: rgba(255, 255, 255, 0.06);
   --pill-text: rgba(255, 255, 255, 0.8);
@@ -303,4 +305,4 @@ body {
 .faq-list details { margin: .75rem 0; }
 .faq-list summary { cursor: pointer; font-weight: 600; }
 .cta-highlight { color: var(--brand-accent); }
-.btn-cta-primary { display: inline-block; padding: .8rem 1.4rem; border-radius: 999px; background: var(--brand-accent); color: #fff !important; text-decoration: none; }
+.btn-cta-primary { display: inline-block; padding: .8rem 1.4rem; border-radius: 999px; background: var(--cta-bg); color: #fff !important; text-decoration: none; }
