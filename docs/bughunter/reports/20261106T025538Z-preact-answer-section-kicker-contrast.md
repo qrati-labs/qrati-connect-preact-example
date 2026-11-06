@@ -52,4 +52,15 @@ No browser computed-style capture or axe run. Ratios are from source tokens, CSS
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
 
-timing incomplete
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-06T02:55:38Z | 2026-11-06T02:56:00Z | 00:00:22 (0.4 min) | 08:25:38–08:26:00 |
+| `audit` | 2026-11-06T02:56:14Z | 2026-11-06T03:05:42Z | 00:09:28 (9.5 min) | 08:26:14–08:35:42 |
+| **Total run (preflight start to finish)** | 2026-11-06T02:55:38Z | 2026-11-06T03:05:42Z | **00:10:04 (10.1 min)** | **08:25:38–08:35:42** |
+| Unclassified interval between marked phases | — | — | 00:00:14 (0.2 min) | — |
+
+- Preflight: 08:25:38–08:26:00 IST (6 Nov)
+- Audit: 08:26:14–08:35:42 IST (6 Nov)
+- Total: 08:25:38–08:35:42 IST (6 Nov)
+
+Timing-table insertion itself occurs after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
