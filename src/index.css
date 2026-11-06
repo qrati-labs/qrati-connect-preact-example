@@ -290,6 +290,7 @@ body {
 .seo-features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; margin-top: 1.5rem; }
 
 .answer-section { display:grid; gap:1.5rem; align-items:center; margin-top:3rem; padding:1.5rem; border:1px solid rgba(255,72,0,.24); border-radius:1.5rem; background:linear-gradient(135deg,rgba(255,72,0,.1),var(--card-bg)); }
+[data-theme='light'] .answer-section { background: linear-gradient(135deg, #fff7f1, #ffffff); }
 .answer-copy h2 { margin:.5rem 0 0; color:var(--page-heading); font-size:clamp(1.4rem,2.4vw,2rem); }
 .answer-copy p { max-width:48rem; margin:.75rem 0 0; color:var(--page-muted); line-height:1.7; }
 .answer-points { display:grid; gap:.65rem; color:var(--page-heading); font-size:.88rem; }
