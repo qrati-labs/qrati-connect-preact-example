@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-06 | Preact host live prefers-color-scheme | Report-only; no confirmed defect | [20261106T001938Z-preact-os-theme-live.md](reports/20261106T001938Z-preact-os-theme-live.md) |
 | 2026-11-05 | Preact host keyboard navigation | Report-only; no confirmed defect | [20261105T235638Z-preact-keyboard-nav.md](reports/20261105T235638Z-preact-keyboard-nav.md) |
 | 2026-11-05 | Preact host prefers-reduced-motion | Report-only; no confirmed defect | [20261105T233538Z-preact-reduced-motion.md](reports/20261105T233538Z-preact-reduced-motion.md) |
 | 2026-11-05 | Preact FAQ structured data | Report-only; no confirmed defect | [20261105T231438Z-preact-faq-structured-data.md](reports/20261105T231438Z-preact-faq-structured-data.md) |
