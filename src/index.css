@@ -163,6 +163,9 @@ body {
   text-transform: uppercase;
   backdrop-filter: blur(10px);
 }
+[data-theme='dark'] .hero-kicker {
+  background: #ffffff;
+}
 
 .hero h1 {
   margin: 0;
