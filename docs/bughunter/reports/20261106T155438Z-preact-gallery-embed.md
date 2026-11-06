@@ -62,7 +62,17 @@ No reachable host invariant was violated for this workflow.
 
 ## Timing (measured wall-clock)
 
-Timing table inserted after `finish`.
+Copied from the timer ledger (`finish`). IST is UTC+05:30.
+
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-06T15:54:38Z | 2026-11-06T15:55:01Z | 00:00:23 (0.4 min) | 21:24:38–21:25:01 |
+| `audit` | 2026-11-06T15:55:29Z | 2026-11-06T15:57:30Z | 00:02:01 (2.0 min) | 21:25:29–21:27:30 |
+| `delivery` | 2026-11-06T15:57:30Z | 2026-11-06T15:58:21Z | 00:00:51 (0.8 min) | 21:27:30–21:28:21 |
+| **Total run (preflight start to finish)** | 2026-11-06T15:54:38Z | 2026-11-06T15:58:21Z | **00:03:43 (3.7 min)** | **21:24:38–21:28:21** |
+| Unclassified interval between marked phases | — | — | 00:00:28 (0.5 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot.
 
 ## Sources
 
