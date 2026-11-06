@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-06 | Preact host primary CTA contrast | P3 confirmed; split `--cta-bg`; issue #69 | [20261106T010338Z-preact-cta-contrast.md](reports/20261106T010338Z-preact-cta-contrast.md) |
 | 2026-11-06 | Preact cookie-consent hideFromBots / crawler | Report-only; no confirmed defect | [20261106T004038Z-preact-consent-hide-from-bots.md](reports/20261106T004038Z-preact-consent-hide-from-bots.md) |
 | 2026-11-06 | Preact host live prefers-color-scheme | Report-only; no confirmed defect | [20261106T001938Z-preact-os-theme-live.md](reports/20261106T001938Z-preact-os-theme-live.md) |
 | 2026-11-05 | Preact host keyboard navigation | Report-only; no confirmed defect | [20261105T235638Z-preact-keyboard-nav.md](reports/20261105T235638Z-preact-keyboard-nav.md) |
