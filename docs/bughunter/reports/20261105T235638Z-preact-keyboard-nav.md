@@ -52,4 +52,17 @@ No browser Tab session or AT landmark announcement in this run.
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed |
+|---|---|---|---|
+| `preflight` | 2026-11-05T23:56:38Z | 2026-11-05T23:56:59Z | 00:00:21 (0.3 min) |
+| `audit` | 2026-11-05T23:57:12Z | 2026-11-06T00:03:10Z | 00:05:58 (6.0 min) |
+| `delivery` | 2026-11-06T00:03:10Z | 2026-11-06T00:03:41Z | 00:00:31 (0.5 min) |
+| **Total run (preflight start to finish)** | 2026-11-05T23:56:38Z | 2026-11-06T00:03:41Z | **00:07:03 (7.0 min)** |
+| Unclassified interval between marked phases | — | — | 00:00:13 (0.2 min) |
+
+- Preflight: 05:26:38–05:26:59 IST (6 Nov)
+- Audit: 05:27:12–05:33:10 IST (6 Nov)
+- Delivery: 05:33:10–05:33:41 IST (6 Nov)
+- Total: 05:26:38–05:33:41 IST (6 Nov)
+
+Timing-table insertion itself occurs after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
