@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-06 | Preact cookie-consent off-toggle non-text contrast | P3 confirmed; restore light `--cc-toggle-off-bg`; issue #79 | [20261106T032138Z-preact-consent-toggle-off-contrast.md](reports/20261106T032138Z-preact-consent-toggle-off-contrast.md) |
 | 2026-11-06 | Preact host light-theme answer-section kicker contrast | P3 confirmed; opaque light card wash; issue #77 | [20261106T025538Z-preact-answer-section-kicker-contrast.md](reports/20261106T025538Z-preact-answer-section-kicker-contrast.md) |
 | 2026-11-06 | Preact host dark-theme hero-kicker contrast | P3 confirmed; opaque dark chip; issue #75 | [20261106T023138Z-preact-hero-kicker-contrast.md](reports/20261106T023138Z-preact-hero-kicker-contrast.md) |
 | 2026-11-06 | Preact host light-theme brand-accent text contrast | P3 confirmed; darken light `--brand-accent`; issue #73 | [20261106T014838Z-preact-brand-accent-contrast.md](reports/20261106T014838Z-preact-brand-accent-contrast.md) |
