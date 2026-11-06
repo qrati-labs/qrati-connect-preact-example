@@ -51,4 +51,17 @@ No browser screenshot of the dark kicker. Contrast is computed from source CSS (
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-06T02:31:38Z | 2026-11-06T02:31:59Z | 00:00:21 (0.3 min) | 08:01:38–08:01:59 |
+| `audit` | 2026-11-06T02:32:20Z | 2026-11-06T02:38:27Z | 00:06:07 (6.1 min) | 08:02:20–08:08:27 |
+| `delivery` | 2026-11-06T02:38:27Z | 2026-11-06T02:39:23Z | 00:00:56 (0.9 min) | 08:08:27–08:09:23 |
+| **Total run (preflight start to finish)** | 2026-11-06T02:31:38Z | 2026-11-06T02:39:23Z | **00:07:45 (7.8 min)** | **08:01:38–08:09:23** |
+| Unclassified interval between marked phases | — | — | 00:00:21 (0.3 min) | — |
+
+- Preflight: 08:01:38–08:01:59 IST
+- Audit: 08:02:20–08:08:27 IST
+- Delivery: 08:08:27–08:09:23 IST
+- Total: 08:01:38–08:09:23 IST
+
+Timing-table insertion itself occurs after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
