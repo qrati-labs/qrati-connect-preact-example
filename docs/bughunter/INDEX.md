@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-05 | Preact host keyboard navigation | Report-only; no confirmed defect | [20261105T235638Z-preact-keyboard-nav.md](reports/20261105T235638Z-preact-keyboard-nav.md) |
 | 2026-11-05 | Preact host prefers-reduced-motion | Report-only; no confirmed defect | [20261105T233538Z-preact-reduced-motion.md](reports/20261105T233538Z-preact-reduced-motion.md) |
 | 2026-11-05 | Preact FAQ structured data | Report-only; no confirmed defect | [20261105T231438Z-preact-faq-structured-data.md](reports/20261105T231438Z-preact-faq-structured-data.md) |
 | 2026-11-05 | Preact cookie-consent vs theme-toggle stacking | Report-only; no confirmed defect | [20261105T225238Z-preact-consent-theme-toggle-stacking.md](reports/20261105T225238Z-preact-consent-theme-toggle-stacking.md) |
