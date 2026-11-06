@@ -40,7 +40,7 @@ Preact example host response to a later `prefers-color-scheme` change only. Not 
 
 - Authored: none (report-only).
 - Tests/build/lint/type-check/install/package managers: **NOT RUN BY BUGHUNTER**
-- `git diff --check`: permitted; run at delivery
+- `git diff --check`: clean (docs only)
 - CodeGraph: unindexed for this worktree; focused reads used
 - Primary docs: [MDN `MediaQueryList` `change` event](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList/change_event), [MDN `prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme)
 
@@ -52,4 +52,17 @@ No OS theme-toggle session in a browser, no live `qrati.com` request, no compute
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
 
-TIMING_TABLE_PENDING
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed |
+|---|---|---|---|
+| `preflight` | 2026-11-06T00:19:38Z | 2026-11-06T00:20:01Z | 00:00:23 (0.4 min) |
+| `audit` | 2026-11-06T00:20:23Z | 2026-11-06T00:23:11Z | 00:02:48 (2.8 min) |
+| `delivery` | 2026-11-06T00:23:11Z | 2026-11-06T00:24:07Z | 00:00:56 (0.9 min) |
+| **Total run (preflight start to finish)** | 2026-11-06T00:19:38Z | 2026-11-06T00:24:07Z | **00:04:29 (4.5 min)** |
+| Unclassified interval between marked phases | — | — | 00:00:22 (0.4 min) |
+
+- Preflight: 05:49:38–05:50:01 IST (6 Nov)
+- Audit: 05:50:23–05:53:11 IST (6 Nov)
+- Delivery: 05:53:11–05:54:07 IST (6 Nov)
+- Total: 05:49:38–05:54:07 IST (6 Nov)
+
+Timing-table insertion itself occurs after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
