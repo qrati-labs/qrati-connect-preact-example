@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-06 | Preact host dark-theme hero-kicker contrast | P3 confirmed; opaque dark chip; issue #75 | [20261106T023138Z-preact-hero-kicker-contrast.md](reports/20261106T023138Z-preact-hero-kicker-contrast.md) |
 | 2026-11-06 | Preact host light-theme brand-accent text contrast | P3 confirmed; darken light `--brand-accent`; issue #73 | [20261106T014838Z-preact-brand-accent-contrast.md](reports/20261106T014838Z-preact-brand-accent-contrast.md) |
 | 2026-11-06 | Preact cookie-consent primary button contrast | P3 confirmed; darken `--cc-btn-primary-bg`; issue #71 | [20261106T012738Z-preact-consent-primary-contrast.md](reports/20261106T012738Z-preact-consent-primary-contrast.md) |
 | 2026-11-06 | Preact host primary CTA contrast | P3 confirmed; split `--cta-bg`; issue #69 | [20261106T010338Z-preact-cta-contrast.md](reports/20261106T010338Z-preact-cta-contrast.md) |
