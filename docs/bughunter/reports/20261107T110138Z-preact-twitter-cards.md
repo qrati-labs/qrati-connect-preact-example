@@ -61,4 +61,17 @@ No X composer unfurl, no production GET, no Card Validator (retired). Card-layou
 
 Copied from the timer ledger (`finish`). IST is UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-07T11:01:38Z | 2026-11-07T11:01:58Z | 00:00:20 (0.3 min) | 16:31:38–16:31:58 |
+| `audit` | 2026-11-07T11:02:20Z | 2026-11-07T11:07:52Z | 00:05:31 (5.5 min) | 16:32:20–16:37:52 |
+| `delivery` | 2026-11-07T11:07:52Z | 2026-11-07T11:08:58Z | 00:01:06 (1.1 min) | 16:37:52–16:38:58 |
+| **Total run (preflight start to finish)** | 2026-11-07T11:01:38Z | 2026-11-07T11:08:58Z | **00:07:20 (7.3 min)** | **16:31:38–16:38:58** |
+| Unclassified interval between marked phases | — | — | 00:00:22 (0.4 min) | — |
+
+- Preflight: 16:31:38–16:31:58 IST (7 Nov)
+- Audit: 16:32:20–16:37:52 IST (7 Nov)
+- Delivery: 16:37:52–16:38:58 IST (7 Nov)
+- Total: 16:31:38–16:38:58 IST (7 Nov)
+
+Timing-table insertion occurred after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
