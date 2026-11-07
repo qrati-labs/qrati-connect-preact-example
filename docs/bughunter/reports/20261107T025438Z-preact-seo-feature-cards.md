@@ -51,3 +51,18 @@ No browser computed-style capture, no screen-reader session, no axe run. Contras
 ## Timing
 
 Copied from the timer ledger after `finish`. IST = UTC+05:30.
+
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-07T02:54:38Z | 2026-11-07T02:54:59Z | 00:00:21 (0.3 min) | 08:24:38–08:24:59 |
+| `audit` | 2026-11-07T02:55:18Z | 2026-11-07T03:00:15Z | 00:04:57 (5.0 min) | 08:25:18–08:30:15 |
+| `delivery` | 2026-11-07T03:00:15Z | 2026-11-07T03:01:40Z | 00:01:24 (1.4 min) | 08:30:15–08:31:40 |
+| **Total run (preflight start to finish)** | 2026-11-07T02:54:38Z | 2026-11-07T03:01:40Z | **00:07:02 (7.0 min)** | **08:24:38–08:31:40** |
+| Unclassified interval between marked phases | — | — | 00:00:19 (0.3 min) | — |
+
+- Preflight: 08:24:38–08:24:59 IST (7 Nov)
+- Audit: 08:25:18–08:30:15 IST (7 Nov)
+- Delivery: 08:30:15–08:31:40 IST (7 Nov)
+- Total: 08:24:38–08:31:40 IST (7 Nov)
+
+Timing-table insertion itself occurs after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
