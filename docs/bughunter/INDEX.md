@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-07 | Preact host SEO feature-card headings | Report-only; no confirmed defect | [20261107T025438Z-preact-seo-feature-cards.md](reports/20261107T025438Z-preact-seo-feature-cards.md) |
 | 2026-11-06 | Preact live gallery embed mount | Report-only; no confirmed defect | [20261106T155438Z-preact-gallery-embed.md](reports/20261106T155438Z-preact-gallery-embed.md) |
 | 2026-11-06 | Preact host light-theme answer-section kicker contrast | P3 confirmed; opaque light card wash; issue #77 | [20261106T025538Z-preact-answer-section-kicker-contrast.md](reports/20261106T025538Z-preact-answer-section-kicker-contrast.md) |
 | 2026-11-06 | Preact host dark-theme hero-kicker contrast | P3 confirmed; opaque dark chip; issue #75 | [20261106T023138Z-preact-hero-kicker-contrast.md](reports/20261106T023138Z-preact-hero-kicker-contrast.md) |
