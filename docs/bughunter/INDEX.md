@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-10 | Preact host viewport pinch-zoom | Report-only; no confirmed defect | [20261110T113938Z-preact-viewport-zoom.md](reports/20261110T113938Z-preact-viewport-zoom.md) |
 | 2026-11-10 | Preact host canonical vs trailing-slash mount | Report-only; no confirmed defect | [20261110T070738Z-preact-canonical-slash.md](reports/20261110T070738Z-preact-canonical-slash.md) |
 | 2026-11-10 | Preact host theme prop sync to Connect widget | Report-only; no confirmed defect | [20261110T053738Z-preact-theme-widget-sync.md](reports/20261110T053738Z-preact-theme-widget-sync.md) |
 | 2026-11-07 | Preact host Twitter Card social preview | Report-only; no confirmed defect | [20261107T110138Z-preact-twitter-cards.md](reports/20261107T110138Z-preact-twitter-cards.md) |
