@@ -39,7 +39,7 @@ Host theme state, document classes, persistence, and the `theme` prop on `QratiC
 
 - Authored: none (report-only).
 - Tests/build/lint/type-check/install/package managers: **NOT RUN BY BUGHUNTER**
-- `git diff --check`: permitted; run at delivery
+- `git diff --check`: permitted; clean at delivery
 - CodeGraph: unindexed for this worktree; focused reads of `index.html`, `src/app.tsx`, `src/theme.js`, `src/main.tsx`, `src/config.ts`, plus `qrati-connect-ts` `src/exports/react.tsx` / `src/types.ts`
 - Isolated worktree from preflight remote SHA `737d10d`; `rev-parse --show-toplevel` matched `WORKTREE_PATH`
 
@@ -51,4 +51,12 @@ No browser toggle against a live `<qrati-connect>` upgrade. SDK internals beyond
 
 Copied from the timer ledger (`finish`). IST is UTC+05:30.
 
-_Timing table inserted after `finish`._
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-10T05:37:38Z | 2026-11-10T05:38:00Z | 00:00:22 (0.4 min) | 11:07:38–11:08:00 |
+| `audit` | 2026-11-10T05:38:37Z | 2026-11-10T05:43:26Z | 00:04:48 (4.8 min) | 11:08:37–11:13:26 |
+| `delivery` | 2026-11-10T05:43:26Z | 2026-11-10T05:44:06Z | 00:00:41 (0.7 min) | 11:13:26–11:14:06 |
+| **Total run (preflight start to finish)** | 2026-11-10T05:37:38Z | 2026-11-10T05:44:06Z | **00:06:28 (6.5 min)** | **11:07:38–11:14:06** |
+| Unclassified interval between marked phases | — | — | 00:00:38 (0.6 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
