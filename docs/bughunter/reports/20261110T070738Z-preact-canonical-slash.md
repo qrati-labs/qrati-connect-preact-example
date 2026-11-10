@@ -53,4 +53,12 @@ No live fetch of `qrati.com/connect/preact-example` vs the slash variant. SPA na
 
 Copied from the timer ledger (`finish`). IST is UTC+05:30.
 
-<!-- TIMING_TABLE -->
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-10T07:07:38Z | 2026-11-10T07:08:01Z | 00:00:23 (0.4 min) | 12:37:38–12:38:01 |
+| `audit` | 2026-11-10T07:08:18Z | 2026-11-10T07:13:47Z | 00:05:29 (5.5 min) | 12:38:18–12:43:47 |
+| `delivery` | 2026-11-10T07:13:47Z | 2026-11-10T07:15:00Z | 00:01:12 (1.2 min) | 12:43:47–12:45:00 |
+| **Total run (preflight start to finish)** | 2026-11-10T07:07:38Z | 2026-11-10T07:15:00Z | **00:07:22 (7.4 min)** | **12:37:38–12:45:00** |
+| Unclassified interval between marked phases | — | — | 00:00:17 (0.3 min) | — |
+
+Timing-table insertion occurred after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
