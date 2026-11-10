@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-10 | Preact host theme prop sync to Connect widget | Report-only; no confirmed defect | [20261110T053738Z-preact-theme-widget-sync.md](reports/20261110T053738Z-preact-theme-widget-sync.md) |
 | 2026-11-07 | Preact host Twitter Card social preview | Report-only; no confirmed defect | [20261107T110138Z-preact-twitter-cards.md](reports/20261107T110138Z-preact-twitter-cards.md) |
 | 2026-11-07 | Preact host SEO feature-card headings | Report-only; no confirmed defect | [20261107T025438Z-preact-seo-feature-cards.md](reports/20261107T025438Z-preact-seo-feature-cards.md) |
 | 2026-11-06 | Preact live gallery embed mount | Report-only; no confirmed defect | [20261106T155438Z-preact-gallery-embed.md](reports/20261106T155438Z-preact-gallery-embed.md) |
