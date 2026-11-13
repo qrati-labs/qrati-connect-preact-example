@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-13 | Preact host hero inline-link use of color | P3 confirmed; underline in-sentence hero links; issue #87 | [20261113T122838Z-preact-hero-inline-link-color.md](reports/20261113T122838Z-preact-hero-inline-link-color.md) |
 | 2026-11-10 | Preact host viewport pinch-zoom | Report-only; no confirmed defect | [20261110T113938Z-preact-viewport-zoom.md](reports/20261110T113938Z-preact-viewport-zoom.md) |
 | 2026-11-10 | Preact host canonical vs trailing-slash mount | Report-only; no confirmed defect | [20261110T070738Z-preact-canonical-slash.md](reports/20261110T070738Z-preact-canonical-slash.md) |
 | 2026-11-10 | Preact host theme prop sync to Connect widget | Report-only; no confirmed defect | [20261110T053738Z-preact-theme-widget-sync.md](reports/20261110T053738Z-preact-theme-widget-sync.md) |
