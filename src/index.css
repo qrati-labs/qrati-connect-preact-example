@@ -179,6 +179,10 @@ body {
 
 .hero h1 a, .hero-copy a, .footer-title span { color: var(--brand-accent); }
 .hero a, .footer a { text-decoration: none; }
+.hero h1 a, .hero-copy a {
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
 
 .hero-copy {
   max-width: 44rem;
