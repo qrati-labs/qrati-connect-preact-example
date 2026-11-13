@@ -53,4 +53,17 @@ No browser computed-style or axe run. Ratios are from source tokens and the WCAG
 
 Copied from the timer ledger (`finish`). IST is UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-13T12:28:38Z | 2026-11-13T12:29:00Z | 00:00:22 (0.4 min) | 17:58:38–17:59:00 |
+| `audit` | 2026-11-13T12:29:16Z | 2026-11-13T12:35:35Z | 00:06:19 (6.3 min) | 17:59:16–18:05:35 |
+| `delivery` | 2026-11-13T12:35:35Z | 2026-11-13T12:36:31Z | 00:00:57 (0.9 min) | 18:05:35–18:06:31 |
+| **Total run (preflight start to finish)** | 2026-11-13T12:28:38Z | 2026-11-13T12:36:31Z | **00:07:53 (7.9 min)** | **17:58:38–18:06:31** |
+| Unclassified interval between marked phases | — | — | 00:00:16 (0.3 min) | — |
+
+- Preflight: 17:58:38–17:59:00 IST (13 Nov)
+- Audit: 17:59:16–18:05:35 IST (13 Nov)
+- Delivery: 18:05:35–18:06:31 IST (13 Nov)
+- Total: 17:58:38–18:06:31 IST (13 Nov)
+
+Timing-table insertion occurred after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
