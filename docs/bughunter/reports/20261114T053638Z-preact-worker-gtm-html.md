@@ -54,4 +54,17 @@ No live Worker invocation, no Cloudflare env inspection, no browser GTM network.
 
 Copied from the timer ledger (`finish`). IST is UTC+05:30.
 
-TIMING_TABLE_PLACEHOLDER
+| Phase | Segment start (UTC) | Segment end (UTC) | Elapsed | IST |
+|---|---|---|---|---|
+| `preflight` | 2026-11-14T05:36:38Z | 2026-11-14T05:37:05Z | 00:00:27 (0.5 min) | 11:06:38–11:07:05 |
+| `audit` | 2026-11-14T05:37:23Z | 2026-11-14T05:41:49Z | 00:04:27 (4.5 min) | 11:07:23–11:11:49 |
+| `delivery` | 2026-11-14T05:41:49Z | 2026-11-14T05:41:49Z | 00:00:00 (0.0 min) | 11:11:49–11:11:49 |
+| **Total run (preflight start to finish)** | 2026-11-14T05:36:38Z | 2026-11-14T05:41:49Z | **00:05:11 (5.2 min)** | **11:06:38–11:11:49** |
+| Unclassified interval between marked phases | — | — | 00:00:18 (0.3 min) | — |
+
+- Preflight: 11:06:38–11:07:05 IST
+- Audit: 11:07:23–11:11:49 IST
+- Delivery: 11:11:49–11:11:49 IST
+- Total: 11:06:38–11:11:49 IST
+
+Timing-table insertion occurred after this measurement snapshot. Merge of this example PR is after `finish` and is not in the measured elapsed time.
