@@ -2,6 +2,7 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-14 | Preact Worker HTML GTM rewrite vs client syncGtm | Report-only; no confirmed defect | [20261114T053638Z-preact-worker-gtm-html.md](reports/20261114T053638Z-preact-worker-gtm-html.md) |
 | 2026-11-13 | Preact host hero inline-link use of color | P3 confirmed; underline in-sentence hero links; issue #87 | [20261113T122838Z-preact-hero-inline-link-color.md](reports/20261113T122838Z-preact-hero-inline-link-color.md) |
 | 2026-11-10 | Preact host viewport pinch-zoom | Report-only; no confirmed defect | [20261110T113938Z-preact-viewport-zoom.md](reports/20261110T113938Z-preact-viewport-zoom.md) |
 | 2026-11-10 | Preact host canonical vs trailing-slash mount | Report-only; no confirmed defect | [20261110T070738Z-preact-canonical-slash.md](reports/20261110T070738Z-preact-canonical-slash.md) |
