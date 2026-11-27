@@ -2,6 +2,14 @@
 
 | Date (UTC) | Workflow | Result | Report |
 |---|---|---|---|
+| 2026-11-14 | Preact Worker HTML GTM rewrite vs client syncGtm | Report-only; no confirmed defect | [20261114T053638Z-preact-worker-gtm-html.md](reports/20261114T053638Z-preact-worker-gtm-html.md) |
+| 2026-11-13 | Preact host hero inline-link use of color | P3 confirmed; underline in-sentence hero links; issue #87 | [20261113T122838Z-preact-hero-inline-link-color.md](reports/20261113T122838Z-preact-hero-inline-link-color.md) |
+| 2026-11-10 | Preact host viewport pinch-zoom | Report-only; no confirmed defect | [20261110T113938Z-preact-viewport-zoom.md](reports/20261110T113938Z-preact-viewport-zoom.md) |
+| 2026-11-10 | Preact host canonical vs trailing-slash mount | Report-only; no confirmed defect | [20261110T070738Z-preact-canonical-slash.md](reports/20261110T070738Z-preact-canonical-slash.md) |
+| 2026-11-10 | Preact host theme prop sync to Connect widget | Report-only; no confirmed defect | [20261110T053738Z-preact-theme-widget-sync.md](reports/20261110T053738Z-preact-theme-widget-sync.md) |
+| 2026-11-07 | Preact host Twitter Card social preview | Report-only; no confirmed defect | [20261107T110138Z-preact-twitter-cards.md](reports/20261107T110138Z-preact-twitter-cards.md) |
+| 2026-11-07 | Preact host SEO feature-card headings | Report-only; no confirmed defect | [20261107T025438Z-preact-seo-feature-cards.md](reports/20261107T025438Z-preact-seo-feature-cards.md) |
+| 2026-11-06 | Preact live gallery embed mount | Report-only; no confirmed defect | [20261106T155438Z-preact-gallery-embed.md](reports/20261106T155438Z-preact-gallery-embed.md) |
 | 2026-11-06 | Preact cookie-consent off-toggle non-text contrast | P3 confirmed; restore light `--cc-toggle-off-bg`; issue #79 | [20261106T032138Z-preact-consent-toggle-off-contrast.md](reports/20261106T032138Z-preact-consent-toggle-off-contrast.md) |
 | 2026-11-06 | Preact host light-theme answer-section kicker contrast | P3 confirmed; opaque light card wash; issue #77 | [20261106T025538Z-preact-answer-section-kicker-contrast.md](reports/20261106T025538Z-preact-answer-section-kicker-contrast.md) |
 | 2026-11-06 | Preact host dark-theme hero-kicker contrast | P3 confirmed; opaque dark chip; issue #75 | [20261106T023138Z-preact-hero-kicker-contrast.md](reports/20261106T023138Z-preact-hero-kicker-contrast.md) |
